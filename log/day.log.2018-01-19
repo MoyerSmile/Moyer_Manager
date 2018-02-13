@@ -1,0 +1,249 @@
+01-19 09:21:57 INFO  XZYStart - Server[logServer] Start Success!
+01-19 09:21:57 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 09:21:57 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 09:21:58 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 09:21:58 INFO  EntryAction - WebServer Struct Start Success!
+01-19 09:21:58 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 09:21:58 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 09:21:58 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 09:21:58 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 09:21:58 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 09:21:58 ERROR XZYStart - System start finish.
+01-19 09:25:17 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 09:25:17 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2
+01-19 09:30:54 INFO  XZYStart - Server[logServer] Start Success!
+01-19 09:30:54 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 09:30:54 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 09:30:54 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 09:30:54 INFO  EntryAction - WebServer Struct Start Success!
+01-19 09:30:54 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 09:30:54 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 09:30:54 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 09:30:54 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 09:30:54 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 09:30:54 ERROR XZYStart - System start finish.
+01-19 09:31:18 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 09:31:18 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:5
+01-19 09:42:51 INFO  XZYStart - Server[logServer] Start Success!
+01-19 09:42:51 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-19 09:42:51 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-19 09:42:52 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 09:42:52 INFO  EntryAction - WebServer Struct Start Success!
+01-19 09:42:52 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[867988177]] Success
+01-19 09:42:52 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 09:42:52 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 09:42:52 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 09:42:52 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 09:42:52 ERROR XZYStart - System start finish.
+01-19 09:42:59 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 09:43:38 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:39599
+01-19 09:51:45 INFO  XZYStart - Server[logServer] Start Success!
+01-19 09:51:46 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 09:51:46 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 09:51:46 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 09:51:46 INFO  EntryAction - WebServer Struct Start Success!
+01-19 09:51:46 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 09:51:46 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 09:51:46 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 09:51:46 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 09:51:46 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 09:51:46 ERROR XZYStart - System start finish.
+01-19 09:52:29 INFO  XZYStart - Server[logServer] Start Success!
+01-19 09:52:29 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 09:52:29 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 09:52:30 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 09:52:30 INFO  EntryAction - WebServer Struct Start Success!
+01-19 09:52:30 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 09:52:30 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 09:52:30 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 09:52:31 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 09:52:31 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 09:52:31 ERROR XZYStart - System start finish.
+01-19 09:52:38 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 09:52:38 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2
+01-19 10:03:05 INFO  XZYStart - Server[logServer] Start Success!
+01-19 10:03:05 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-19 10:03:05 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-19 10:03:06 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 10:03:06 INFO  EntryAction - WebServer Struct Start Success!
+01-19 10:03:06 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[657736958]] Success
+01-19 10:03:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 10:03:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 10:03:06 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 10:03:06 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 10:03:06 ERROR XZYStart - System start finish.
+01-19 10:03:16 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 10:03:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10802
+01-19 10:43:28 INFO  XZYStart - Server[logServer] Start Success!
+01-19 10:43:28 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 10:43:28 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 10:43:28 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 10:43:28 INFO  EntryAction - WebServer Struct Start Success!
+01-19 10:43:28 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 10:43:28 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 10:43:28 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 10:43:28 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 10:43:28 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 10:43:28 ERROR XZYStart - System start finish.
+01-19 10:43:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 10:43:56 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:3
+01-19 15:21:01 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:21:01 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:21:01 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:21:01 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:21:01 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:21:01 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:21:01 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:21:01 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:21:02 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:21:02 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:21:02 ERROR XZYStart - System start finish.
+01-19 15:21:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:21:13 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:21:13 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:21:13 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:21:14 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:21:14 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:21:14 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:21:14 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:21:14 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:21:14 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:21:15 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:21:15 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2452
+01-19 15:21:54 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:21:54 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:21:54 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:21:55 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:21:55 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:21:55 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:21:55 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:21:55 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:21:55 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:21:55 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:21:55 ERROR XZYStart - System start finish.
+01-19 15:22:02 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:22:02 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:22:02 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:22:02 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:22:03 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:22:03 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:22:03 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:22:03 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:22:03 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:22:03 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:22:04 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:22:04 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2141
+01-19 15:23:04 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:23:04 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:23:04 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:23:04 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:23:04 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:23:04 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:23:04 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:23:04 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:23:04 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:23:04 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:23:04 ERROR XZYStart - System start finish.
+01-19 15:23:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:23:10 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:23:10 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:23:10 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:23:11 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:23:11 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:23:11 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:23:11 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:23:11 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:23:11 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:23:12 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:23:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1928
+01-19 15:23:18 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:23:18 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1147520339-ThreadPool[1136377173]] Success
+01-19 15:23:18 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1147520339] Success
+01-19 15:23:18 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:23:18 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:23:18 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[867988177]] Success
+01-19 15:23:19 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:23:19 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:23:19 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:23:19 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:23:19 ERROR XZYStart - System start finish.
+01-19 15:23:22 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:23:22 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:23:22 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:23:22 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:23:23 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:23:23 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:23:23 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:23:23 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:23:23 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:23:23 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:23:24 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:23:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2017
+01-19 15:27:06 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:27:06 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:27:06 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:27:06 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:27:06 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:27:06 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:27:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:27:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:27:06 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:27:06 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:27:06 ERROR XZYStart - System start finish.
+01-19 15:27:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:27:12 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:27:12 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:27:12 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:27:13 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:27:13 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:27:13 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:27:13 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:27:13 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:27:13 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:27:14 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:27:14 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1749
+01-19 15:31:07 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:31:07 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:31:07 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:31:08 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:31:08 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:31:08 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:31:08 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:31:08 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:31:08 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:31:08 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:31:08 ERROR XZYStart - System start finish.
+01-19 15:31:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:31:25 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:31:25 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:31:25 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:31:26 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:31:26 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:31:26 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:31:26 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:31:26 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:31:26 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:31:26 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1671
+01-19 15:33:06 INFO  XZYStart - Server[logServer] Start Success!
+01-19 15:33:06 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-19 15:33:06 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-19 15:33:07 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-19 15:33:07 INFO  EntryAction - WebServer Struct Start Success!
+01-19 15:33:07 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-19 15:33:07 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-19 15:33:07 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-19 15:33:07 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-19 15:33:07 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-19 15:33:07 ERROR XZYStart - System start finish.
+01-19 15:33:29 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-19 15:33:29 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-19 15:33:29 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-19 15:33:30 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-19 15:33:30 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-19 15:33:30 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-19 15:33:30 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-19 15:33:30 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-19 15:33:30 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-19 15:33:30 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-19 15:33:31 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-19 15:33:31 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1868

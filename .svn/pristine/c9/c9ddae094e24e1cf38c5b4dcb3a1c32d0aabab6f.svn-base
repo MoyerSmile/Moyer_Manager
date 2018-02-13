@@ -1,0 +1,26 @@
+package sl.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class UserAction extends HttpAction {
+
+	public String save(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("user save action");
+		return null;
+	}
+	
+	public String delete(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("user delete action");
+
+		return null;
+	}
+	
+	public String query(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("user query action");
+		return null;
+	}
+}

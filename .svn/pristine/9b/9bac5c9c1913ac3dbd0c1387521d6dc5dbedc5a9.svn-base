@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="../../js/axios-v0.16.0.min.js"></script>
+<script type="text/javascript" src="../../js/vue-2.5.3.js"></script>
+<script type="text/javascript" src="../../js/elementui-2.0.11.js"></script>
+<link rel="stylesheet" href="../../css/elementui-2.0.11.css">
+<style>
+</style>
+</head>
+<body>
+<div id="app">
+		<el-button type="primary" @click="logout"  style="width:240px;margin-left:120px" >退出</el-button>
+		<el-button type="success" @click="centerDialogVisible = true"  style="width:240px;margin-left:120px" :show-close="showClose" :close-on-click-modal="closeModal">增加</el-button>
+<template>
+  <el-table :data="tableData" style="width: 100%" >
+   <el-table-column label="序号" width="180" v-if="false">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.id }}</span>
+      </template>
+    </el-table-column> 
+       <el-table-column label="账号" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.account }}</span>
+      </template>
+    </el-table-column> 
+     <el-table-column label="用户名" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.name }}</span>
+      </template>
+    </el-table-column> 
+       <el-table-column label="密码" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.pwd }}</span>
+      </template>
+    </el-table-column> 
+      <el-table-column label="电话" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.phone }}</span>
+      </template>
+    </el-table-column> 
+      <el-table-column label="地址" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.address }}</span>
+      </template>
+    </el-table-column> 
+    <el-table-column label="操作">
+      <template slot-scope="scope">
+        <el-button size="mini" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
+        <el-button size="mini" type="danger" @click="handleDelete(scope.$index, scope.row)">删除</el-button>
+      </template>
+    </el-table-column>
+  </el-table>
+</template>
+
+	<el-dialog :visible.sync="centerDialogVisible" width="500px" >
+		<template> 
+		<el-form :model="form" >
+		<el-form-item label="序号" :label-width="formLabelWidth" v-if="false"> 
+		<el-input v-model="form.id" auto-complete="off" style="width:240px" v-if="false" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="账号" :label-width="formLabelWidth"> 
+		<el-input v-model="form.account" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="用户名" :label-width="formLabelWidth"> 
+		<el-input v-model="form.name" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="密码" :label-width="formLabelWidth"> 
+		<el-input v-model="form.pwd" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="电话" :label-width="formLabelWidth"> 
+		<el-input v-model="form.phone" auto-complete="off" style="width:240px"  ></el-input> 
+		</el-form-item> 
+		<el-form-item label="住址" :label-width="formLabelWidth"> 
+		<el-input v-model="form.address" auto-complete="off" style="width:240px"  ></el-input> 
+		</el-form-item> 
+		<el-button type="primary" @click="submit"  style="width:240px;margin-left:120px" >提交</el-button>
+		</el-form> 
+		</template> 
+	</el-dialog>
+</div>
+</body>
+<script>
+var data = {
+	centerDialogVisible: false,
+	autofocus:true,
+	closeModal:false,
+	showClose:false,
+	tableData:[{
+	  id:"",	
+	  account:"",
+  	  name:"",
+  	  pwd:"",
+  	  phone:"",
+  	  address:"",
+    }],
+    form: {
+		id:"",    	
+        name: '',
+        account:"",
+        pwd:"",
+        phone:"",
+        address:""
+      },
+      formLabelWidth: '120px',
+      logout(event){
+    	  axios({
+  		    method:'post',
+  		    url:'/login.go?method=exitLogin',
+  		    data:{
+  		    } 
+  			}).then(function (response) {
+  	          console.log(response.data);
+  	            if(response.data.result == "-1"){
+  	            }else{
+  	            	window.location.href="../login/login.html";
+  	            }
+  	        })
+  	        .catch(function (error) {
+  	          console.log(error);
+  	     });
+      },
+      handleEdit(index,row){
+    	  alert(index +","+ row);
+      },
+      handleDelete(index,row){
+    	  alert(index +","+ row);
+      },
+      submit(event){
+    	  var id = data.form.id;
+    	  var name = data.form.name;
+    	  var account = data.form.account;
+    	  var password = data.form.pwd;
+    	  var phone = data.form.phone;
+    	  var address = data.form.address;
+    	  axios({
+    		    method:'post',
+    		    url:'/user.go?method=save',
+    		    params:{
+    		    	id:id,
+    		    	account:account,
+    		    	userName:name,
+    		    	password:password,
+    		    	phone:phone,
+    		    	address:address
+    		    } ,
+    			}).then(function (response) {
+    				if(response.data.result=="1"){
+    					alert("添加成功!");
+    					data.centerDialogVisible=false;
+    					data.form.id = "";
+    					data.form.name ="";
+    					data.form.account="";
+    					data.form.pwd="";
+    					data.form.phone = "";
+    					data.form.address="";
+    				}
+    	        })
+    	        .catch(function (error) {
+    	          console.log(error);
+    	     });
+      },
+};
+new Vue({el:"#app",data:data});
+window.onload=function(){
+	axios({
+	    method:'post',
+	    url:'/user.go?method=query',
+	    params:{
+	    } ,
+		}).then(function (response) {
+			if(response.data.result=="1"){
+			}
+        })
+        .catch(function (error) {
+          console.log(error);
+     });
+}
+
+</script>
+</html>

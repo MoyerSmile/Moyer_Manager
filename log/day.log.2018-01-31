@@ -1,0 +1,443 @@
+01-31 15:59:34 INFO  XZYStart - Server[logServer] Start Success!
+01-31 15:59:35 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-31 15:59:35 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-31 15:59:36 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+01-31 15:59:36 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+01-31 15:59:36 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-31 15:59:36 INFO  EntryAction - WebServer Struct Start Success!
+01-31 15:59:36 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1893960929]] Success
+01-31 15:59:37 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-31 15:59:37 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-31 15:59:37 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-31 15:59:38 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-31 15:59:38 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+01-31 15:59:38 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+01-31 15:59:38 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-31 15:59:38 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-31 15:59:38 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-31 15:59:39 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-31 15:59:39 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-31 15:59:42 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-31 15:59:42 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-31 15:59:42 ERROR XZYStart - System start finish.
+01-31 16:01:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:01:26 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1889
+01-31 16:01:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:01:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:457
+01-31 16:02:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:10 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+01-31 16:02:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:10 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+01-31 16:02:50 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:50 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:25
+01-31 16:02:50 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:50 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 16:02:57 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:128
+01-31 16:02:57 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:02:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+01-31 16:03:16 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:03:16 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-31 16:03:16 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:03:16 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:03:16 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:03:16 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:322
+01-31 16:03:30 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:03:30 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+01-31 16:03:30 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:03:30 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:7
+01-31 16:05:09 INFO  XZYStart - Server[logServer] Start Success!
+01-31 16:05:09 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-31 16:05:09 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-31 16:05:10 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+01-31 16:05:10 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+01-31 16:05:10 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-31 16:05:10 INFO  EntryAction - WebServer Struct Start Success!
+01-31 16:05:10 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1893960929]] Success
+01-31 16:05:10 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-31 16:05:10 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-31 16:05:10 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-31 16:05:11 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-31 16:05:11 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+01-31 16:05:11 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+01-31 16:05:11 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-31 16:05:11 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-31 16:05:11 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-31 16:05:12 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-31 16:05:12 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-31 16:05:12 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-31 16:05:12 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-31 16:05:12 ERROR XZYStart - System start finish.
+01-31 16:05:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:05:25 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:386
+01-31 16:05:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:05:26 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:446
+01-31 16:06:19 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:06:19 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-31 16:06:19 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:06:19 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:06:19 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 16:06:19 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:309
+01-31 16:06:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:06:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+01-31 16:06:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 16:06:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:14
+01-31 16:50:07 INFO  XZYStart - Server[logServer] Start Success!
+01-31 16:50:07 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1855539741-ThreadPool[940448340]] Success
+01-31 16:50:07 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1855539741] Success
+01-31 16:50:08 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+01-31 16:50:08 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+01-31 16:50:08 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-31 16:50:08 INFO  EntryAction - WebServer Struct Start Success!
+01-31 16:50:08 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1893960929]] Success
+01-31 16:50:08 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-31 16:50:08 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-31 16:50:08 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-31 16:50:09 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-31 16:50:09 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+01-31 16:50:09 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+01-31 16:50:09 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-31 16:50:09 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-31 16:50:09 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-31 16:50:10 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-31 16:50:10 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-31 16:50:10 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-31 16:50:10 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-31 16:50:10 ERROR XZYStart - System start finish.
+01-31 17:38:29 INFO  XZYStart - Server[logServer] Start Success!
+01-31 17:38:29 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-31 17:38:29 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-31 17:38:29 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+01-31 17:38:29 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+01-31 17:38:29 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-31 17:38:29 INFO  EntryAction - WebServer Struct Start Success!
+01-31 17:38:29 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1893960929]] Success
+01-31 17:38:29 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-31 17:38:29 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-31 17:38:30 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-31 17:38:30 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-31 17:38:30 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+01-31 17:38:30 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+01-31 17:38:30 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-31 17:38:30 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-31 17:38:31 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-31 17:38:31 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-31 17:38:31 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-31 17:38:31 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-31 17:38:31 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-31 17:38:31 ERROR XZYStart - System start finish.
+01-31 17:39:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:39:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:356
+01-31 17:39:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:39:06 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:285
+01-31 17:40:03 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:40:03 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:23
+01-31 17:40:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:40:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+01-31 17:40:08 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:40:08 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:7
+01-31 17:40:09 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:40:09 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:12
+01-31 17:40:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:40:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:4
+01-31 17:41:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:41:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+01-31 17:41:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 17:41:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+01-31 17:43:29 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7b8b4bbe--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:31;totalCost:13;maxCost:2;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@70e38ce1--Web Entry Mapping Server[login]::avgCost:78;times:9;totalCost:710;maxCost:356;minCost:1
+
+01-31 17:48:29 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7b8b4bbe--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7cf0d3c3--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 18:13:34 INFO  XZYStart - Server[logServer] Start Success!
+01-31 18:13:34 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-31 18:13:34 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-31 18:13:35 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+01-31 18:13:35 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+01-31 18:13:35 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-31 18:13:35 INFO  EntryAction - WebServer Struct Start Success!
+01-31 18:13:35 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1893960929]] Success
+01-31 18:13:35 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-31 18:13:35 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-31 18:13:35 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-31 18:13:36 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-31 18:13:36 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+01-31 18:13:36 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+01-31 18:13:36 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-31 18:13:36 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-31 18:13:36 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-31 18:13:37 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-31 18:13:37 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-31 18:13:37 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-31 18:13:37 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-31 18:13:37 ERROR XZYStart - System start finish.
+01-31 18:14:07 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:08 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:330
+01-31 18:14:08 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:08 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:5
+01-31 18:14:14 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:14 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+01-31 18:14:15 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:15 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:14:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:25 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:14
+01-31 18:14:25 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:25 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:14:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:12
+01-31 18:14:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:14:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+01-31 18:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@70e38ce1--Web Entry Mapping Server[login]::avgCost:47;times:8;totalCost:376;maxCost:330;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:29;totalCost:24;maxCost:5;minCost:0
+
+01-31 18:19:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:19:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:16
+01-31 18:19:06 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:19:06 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:19:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:19:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+01-31 18:19:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:19:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:19:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:19:46 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-31 18:19:46 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 18:19:46 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 18:19:46 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-31 18:19:46 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:308
+01-31 18:20:15 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:20:15 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:5
+01-31 18:21:20 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:21:20 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2
+01-31 18:21:27 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:21:27 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:12
+01-31 18:21:38 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:21:38 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:293
+01-31 18:22:02 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:22:02 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+01-31 18:22:02 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:22:02 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:129
+01-31 18:22:40 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:22:40 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:19
+01-31 18:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@70e38ce1--Web Entry Mapping Server[login]::avgCost:67;times:12;totalCost:806;maxCost:308;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:25;totalCost:11;maxCost:1;minCost:0
+
+01-31 18:23:45 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:23:45 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+01-31 18:23:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:23:46 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:24:09 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:24:09 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+01-31 18:24:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:24:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:3
+01-31 18:25:04 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:25:04 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+01-31 18:25:04 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:25:04 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-31 18:25:28 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:25:28 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:3
+01-31 18:25:49 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-31 18:25:49 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:14
+01-31 18:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@70e38ce1--Web Entry Mapping Server[login]::avgCost:6;times:8;totalCost:55;maxCost:15;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:17;totalCost:10;maxCost:3;minCost:0
+
+01-31 18:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 18:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 18:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 18:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 18:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 18:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 19:03:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 19:08:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 19:13:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 19:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 19:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 19:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 19:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 19:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 19:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:2;times:1;totalCost:2;maxCost:2;minCost:2
+
+01-31 19:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:3;times:1;totalCost:3;maxCost:3;minCost:3
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:4;times:1;totalCost:4;maxCost:4;minCost:4
+
+01-31 19:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:2;times:1;totalCost:2;maxCost:2;minCost:2
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 19:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:03:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:08:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 20:13:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 20:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:2;times:1;totalCost:2;maxCost:2;minCost:2
+
+01-31 20:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 20:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 21:03:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:08:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:13:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 21:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:2;times:1;totalCost:2;maxCost:2;minCost:2
+
+01-31 21:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 21:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 21:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 21:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:03:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:08:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 22:13:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 22:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 22:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 22:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 22:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:03:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 23:08:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:13:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:18:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:23:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:28:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:33:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:38:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 23:43:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:48:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-31 23:53:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-31 23:58:34 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+

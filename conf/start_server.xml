@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="GBK"?>
+<start>
+	<server>
+		<server_name>logServer</server_name>
+		<desc></desc>
+		<class_name>com.xzy.base.server.log.LogRecordServer</class_name>
+		<create_method>getSingleInstance</create_method>
+		<enable_server>true</enable_server>
+		<failure_system_exit>false</failure_system_exit>
+	</server>
+	
+	<server>
+		<server_name>SL_Manager_Web_Server</server_name>
+		<desc></desc>
+		<class_name>server.xzy.jetty.JettyServer</class_name>
+		<create_method></create_method>
+		<enable_server>true</enable_server>
+		<failure_system_exit>true</failure_system_exit>
+
+		<para key="jetty" value="./jetty/jetty.xml"/>
+	</server>
+</start>

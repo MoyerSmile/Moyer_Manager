@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../js/axios-v0.16.0.min.js"></script>
+		<script src="../js/vue-2.5.3.js"></script>
+		<script src="../js/elementui-2.0.11.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/elementui-2.0.11.css"></link>
+<script src="report_template_1.js"></script>
+
+<style>
+.el-table__header {
+	font-size: 20px;
+	border : 1px solid #d1d1d0;
+}
+
+.el-table  th {
+    background-color: #e8e7e5;
+    border : 1px solid #d1d1d0;
+}
+
+.el-input__inner {
+    height: 33px;
+    font-size: 13px;
+    box-shadow: none;
+    border: 1px solid #1899f4;
+}
+
+.el-header {
+    text-align: left;
+    line-height: 40px;
+  }
+  
+  .el-footer {
+    text-align: center;
+  }
+  
+  .el-main {
+    text-align: center;
+  }
+  
+  
+  .el-table{
+    overflow: auto;
+}
+</style>
+<script type="text/javascript">
+</script>
+<script>
+	window.onload = function(){
+		SL_PageTemplate.init();
+		SL_PageTemplate.setup(true,'/runData.go?method=runData',10);
+		var option=[{value :"1" ,label:"第一"},{value :"2" ,label:"第二"},{value :"3" ,label:"第三"}];
+		var data=[{name:"按钮1",desc:"驾驶员姓名",label:"驾驶员",com_type:"input",width:110},
+			{name:"按钮2",desc:"车牌号",label:"车辆",com_type:"input",width:120},
+			{name:"日期1",desc:"年月日",label:"开始时间",com_type:"date",width:130},
+			{name:"日期2",desc:"时分秒",label:"结束",com_type:"time",width:130},
+			{name:"日期3",desc:"年日分",label:"年日分",com_type:"datetime",width:130},
+			{name:"选择",desc:"选择",label:"选择",com_type:"select",width:150,option:option}]
+		SL_PageTemplate.setReportCondition(data);
+		var city=[{citymin:1,citymax:3,cityname:"上海-北京-南京-天津-深圳"}]
+		var winbut=[{type:"input",label:"地址地址",name:"an1",desc:"日期",width:200},
+			{type:"input",label:"地址哪里",name:"an5",desc:"家庭",width:230},
+			{type:"switch",label:"是否选择",name:"an2",desc:"开关",width:100},
+			{type:"checkbox",label:"城市",name:"an3",desc:"所在地",width:100,option:city},
+			{type:"select",label:"选择2",name:"an4",desc:"开关2",width:100,option:option}]
+		var optionAdd={winW:600,winN:"添加label",winUrl:"/runData.go?method=runData",winRe:"/add.go?method=add",winBut:winbut}
+		var butdata=[{type:"submit",desc:"查询",label:"查询",width:100},{type:"add",desc:"添加",label:"添加",width:120,option:optionAdd}]
+		SL_PageTemplate.setButton(butdata);
+		namedata=[{prop:"date",label:"日期",ifshow:true,ifsort : false,width:300},{prop:"address",label:"地址",ifshow:true,ifsort : true,width:300},{prop:"phone",label:"电话",ifshow:true,ifsort : true}]
+		SL_PageTemplate.setHeader(namedata);
+		SL_PageTemplate.start();
+	};
+</script>
+</head>
+
+<body>
+</body>
+</html>

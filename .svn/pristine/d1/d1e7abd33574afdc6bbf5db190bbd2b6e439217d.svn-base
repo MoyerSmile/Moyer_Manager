@@ -1,0 +1,66 @@
+package sl.action;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import sl.domain.User;
+import sl.service.TUserService;
+import sl.service.impl.UserServiceImpl;
+import sl.util.JsonReader;
+import sl.util.SlLoginConfig;
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class UserAction extends HttpAction {
+    private TUserService userService = new UserServiceImpl();
+
+    public String save(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("user save action");
+        return null;
+    }
+
+    public String delete(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("user delete action");
+
+        return null;
+    }
+
+    public String query(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        JSONArray jarr = new JSONArray();
+        List<User> list = null;
+        try {
+            JSONObject json = JsonReader.receivePost(request);
+            String userName = json.get("userName").toString();
+            String phone = json.get("phone").toString();
+            String address = json.get("address").toString();
+            list = userService.findUsers(userName, phone, address);
+            if (list != null) {
+                for (User user : list) {
+                    JSONObject js = new JSONObject();
+                    js.put("name", user.getName());
+                    js.put("telephone", user.getTelephone());
+                    js.put("email", user.getEmail());
+                    js.put("address", user.getAddress());
+                    jarr.put(js);
+                }
+            }
+        } catch (Exception e) {
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "服务器连接出现问题，请稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+            return null;
+        }
+        this.writeJsonArray(httpInfo, request, response, null, jarr.length(),
+            jarr);
+        return null;
+    }
+}

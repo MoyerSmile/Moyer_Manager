@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-1-19 15:02:35 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="sl.domain.User" table="user" catalog="EASYTAXI">
+        <composite-id name="id" class="sl.domain.UserId">
+            <key-property name="id" type="long">
+                <column name="id" />
+            </key-property>
+            <key-property name="account" type="string">
+                <column name="account" length="30" />
+            </key-property>
+        </composite-id>
+        <property name="name" type="string">
+            <column name="name" length="30" />
+        </property>
+        <property name="password" type="string">
+            <column name="password" length="500" />
+        </property>
+        <property name="photo" type="string">
+            <column name="photo" length="500" />
+        </property>
+        <property name="telephone" type="string">
+            <column name="telephone" length="30" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="30" />
+        </property>
+        <property name="departmentId" type="java.lang.Long">
+            <column name="department_id" />
+        </property>
+        <property name="onDuty" type="java.lang.Boolean">
+            <column name="on_duty" />
+        </property>
+        <property name="postId" type="java.lang.Long">
+            <column name="post_id" />
+        </property>
+        <property name="groupId" type="java.lang.Long">
+            <column name="group_id" />
+        </property>
+        <property name="address" type="string">
+            <column name="address" length="100" />
+        </property>
+        <property name="lastOperator" type="java.lang.Long">
+            <column name="last_operator" />
+        </property>
+    </class>
+</hibernate-mapping>

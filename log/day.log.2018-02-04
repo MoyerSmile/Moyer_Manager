@@ -1,0 +1,614 @@
+02-04 15:45:55 INFO  XZYStart - Server[logServer] Start Success!
+02-04 15:45:55 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+02-04 15:45:55 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+02-04 15:45:55 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 15:45:55 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 15:45:56 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 15:45:56 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 15:45:56 INFO  EntryAction - WebServer Struct Start Success!
+02-04 15:45:56 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 15:45:56 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 15:45:56 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 15:45:56 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 15:45:57 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 15:45:57 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 15:45:57 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 15:45:57 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 15:45:57 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 15:45:57 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 15:45:58 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 15:45:58 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 15:45:58 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 15:45:58 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 15:45:58 ERROR XZYStart - System start finish.
+02-04 15:47:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:47:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:477
+02-04 15:47:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:47:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:17
+02-04 15:48:59 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:48:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15
+02-04 15:48:59 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:48:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+02-04 15:49:06 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:49:06 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 15:49:06 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 15:49:06 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+02-04 17:01:47 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:01:47 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_106095814-ThreadPool[1129343592]] Success
+02-04 17:01:47 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_106095814] Success
+02-04 17:01:47 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:01:47 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:01:47 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:01:47 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:01:47 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:01:47 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[574568002]] Success
+02-04 17:01:48 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:01:48 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:01:48 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:01:49 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:01:49 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:01:49 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:01:49 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:01:49 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:01:49 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:01:49 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:01:49 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:01:50 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:01:50 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:01:50 ERROR XZYStart - System start finish.
+02-04 17:02:01 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:02:01 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:433
+02-04 17:02:01 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:02:01 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+02-04 17:02:20 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:02:20 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:22
+02-04 17:02:23 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:02:23 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+02-04 17:03:07 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:07 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:3
+02-04 17:03:13 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:33
+02-04 17:03:19 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:19 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:03:19 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:03:19 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:269
+02-04 17:03:21 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:21 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:20
+02-04 17:03:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+02-04 17:03:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+02-04 17:03:35 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:35 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:03:35 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:03:35 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:281
+02-04 17:03:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 17:03:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:03:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+02-04 17:04:37 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:04:37 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:04:37 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:16
+02-04 17:04:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:04:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:87
+02-04 17:04:58 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:04:58 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 17:05:00 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:05:00 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:20
+02-04 17:05:26 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:05:26 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+02-04 17:05:29 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:05:29 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 17:06:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:06:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15
+02-04 17:06:13 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:06:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:5
+02-04 17:06:38 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:06:38 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 17:06:40 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:06:40 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+02-04 17:06:47 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@1b5f8a8b--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:60;totalCost:68;maxCost:28;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@223f3642--Web Entry Mapping Server[login]::avgCost:56;times:23;totalCost:1304;maxCost:433;minCost:0
+
+02-04 17:15:01 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:15:01 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1601600603-ThreadPool[443869649]] Success
+02-04 17:15:01 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1601600603] Success
+02-04 17:15:01 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:15:01 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:15:01 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:15:01 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:15:01 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:15:01 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[574568002]] Success
+02-04 17:15:02 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:15:02 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:15:02 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:15:03 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:15:03 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:15:03 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:15:03 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:15:03 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:15:03 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:15:03 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:15:03 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:15:04 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:15:04 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:15:04 ERROR XZYStart - System start finish.
+02-04 17:15:11 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:15:11 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+02-04 17:15:11 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+02-04 17:15:12 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:15:12 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:15:12 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:15:12 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:15:12 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:15:12 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:15:12 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:15:12 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:15:12 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:15:13 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:15:13 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:15:13 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:15:13 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:15:13 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:15:14 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:15:14 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:15:14 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:15:14 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:15:14 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:15:14 ERROR XZYStart - System start finish.
+02-04 17:15:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:15:56 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:441
+02-04 17:15:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:15:57 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:15:57 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:15:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:865
+02-04 17:16:22 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:16:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:36724
+02-04 17:17:21 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:17:39 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:17903
+02-04 17:17:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:26:58 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:26:58 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+02-04 17:26:58 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+02-04 17:26:59 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:26:59 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:26:59 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:26:59 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:26:59 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:26:59 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:26:59 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:26:59 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:27:00 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:27:00 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:27:00 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:27:00 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:27:00 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:27:00 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:27:01 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:27:01 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:27:01 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:27:02 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:27:02 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:27:02 ERROR XZYStart - System start finish.
+02-04 17:27:21 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:27:21 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:394
+02-04 17:27:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:27:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:451
+02-04 17:27:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:27:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+02-04 17:27:35 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:27:35 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:27:35 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:27:35 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:27:35 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:27:35 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:438
+02-04 17:27:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:29:32 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:96202
+02-04 17:29:34 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:29:34 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:33
+02-04 17:29:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:30:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:21757
+02-04 17:30:09 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:30:09 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 17:30:13 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:30:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+02-04 17:30:13 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:30:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+02-04 17:34:02 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:34:02 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+02-04 17:34:02 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+02-04 17:34:02 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:34:02 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:34:03 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:34:03 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:34:03 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:34:03 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:34:03 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:34:03 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:34:03 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:34:04 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:34:04 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:34:04 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:34:04 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:34:04 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:34:04 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:34:05 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:34:05 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:34:05 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:34:05 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:34:05 ERROR XZYStart - System start finish.
+02-04 17:34:15 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:34:16 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:448
+02-04 17:34:16 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:34:16 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:34:16 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:34:16 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:735
+02-04 17:34:39 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:34:39 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+02-04 17:35:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:35:25 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:20137
+02-04 17:35:55 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:35:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+02-04 17:35:55 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:35:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+02-04 17:36:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:36:05 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:36:05 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:36:05 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:36:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:47
+02-04 17:36:22 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:37:21 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:58448
+02-04 17:37:23 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:37:23 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:20
+02-04 17:44:06 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:44:06 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+02-04 17:44:06 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+02-04 17:44:06 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:44:06 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:44:07 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:44:07 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:44:07 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:44:07 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:44:07 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:44:07 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:44:07 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:44:08 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:44:08 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:44:08 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:44:08 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:44:08 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:44:08 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:44:09 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:44:09 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:44:09 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:44:09 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:44:09 ERROR XZYStart - System start finish.
+02-04 17:44:16 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:44:17 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:651
+02-04 17:44:17 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:44:18 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:44:18 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:44:18 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:828
+02-04 17:44:35 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:44:35 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:55
+02-04 17:44:37 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:44:37 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15
+02-04 17:45:47 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:45:47 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1637759174-ThreadPool[583733488]] Success
+02-04 17:45:47 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1637759174] Success
+02-04 17:45:47 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:45:47 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:45:47 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:45:47 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:45:47 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:45:47 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:45:48 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:45:48 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:45:48 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:45:49 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:45:49 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:45:49 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:45:49 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:45:49 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:45:49 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:45:50 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:45:50 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:45:50 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:45:50 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:45:50 ERROR XZYStart - System start finish.
+02-04 17:45:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:45:56 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:476
+02-04 17:45:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:45:57 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:45:57 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:45:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:918
+02-04 17:46:14 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:47:57 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:47:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 17:50:03 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:50:03 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+02-04 17:50:03 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+02-04 17:50:03 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:50:03 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:50:04 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:50:04 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:50:04 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:50:04 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:50:04 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:50:04 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:50:04 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:50:05 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:50:05 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:50:05 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:50:05 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:50:05 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:50:05 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:50:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:50:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:50:06 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:50:06 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:50:06 ERROR XZYStart - System start finish.
+02-04 17:50:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:50:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:557
+02-04 17:50:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:50:12 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:50:12 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:50:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1001
+02-04 17:51:21 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:51:21 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:53
+02-04 17:52:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:52:46 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+02-04 17:54:15 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:54:15 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+02-04 17:54:33 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:54:34 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:31
+02-04 17:54:34 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:54:34 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:16
+02-04 17:54:41 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:54:41 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+02-04 17:54:57 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:54:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 17:55:03 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@14f9390f--Web Entry Mapping Server[login]::avgCost:188;times:9;totalCost:1698;maxCost:1001;minCost:8
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@54398cae--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:32;totalCost:14;maxCost:3;minCost:0
+
+02-04 17:55:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:55:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:8
+02-04 17:55:54 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:55:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+02-04 17:56:32 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:56:32 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:7
+02-04 17:56:37 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:59:01 INFO  XZYStart - Server[logServer] Start Success!
+02-04 17:59:01 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+02-04 17:59:01 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+02-04 17:59:02 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 17:59:02 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 17:59:02 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 17:59:02 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 17:59:02 INFO  EntryAction - WebServer Struct Start Success!
+02-04 17:59:02 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 17:59:02 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 17:59:02 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 17:59:03 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 17:59:04 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 17:59:04 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 17:59:04 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 17:59:04 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 17:59:04 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 17:59:04 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 17:59:05 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 17:59:05 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 17:59:05 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 17:59:05 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 17:59:05 ERROR XZYStart - System start finish.
+02-04 17:59:28 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:59:29 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:402
+02-04 17:59:52 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 17:59:52 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 17:59:53 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 17:59:53 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:846
+02-04 17:59:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:00:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:59050
+02-04 18:05:19 INFO  XZYStart - Server[logServer] Start Success!
+02-04 18:05:19 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1637759174-ThreadPool[583733488]] Success
+02-04 18:05:19 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1637759174] Success
+02-04 18:05:20 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 18:05:20 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 18:05:20 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 18:05:20 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 18:05:20 INFO  EntryAction - WebServer Struct Start Success!
+02-04 18:05:20 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 18:05:20 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 18:05:20 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 18:05:20 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 18:05:21 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 18:05:21 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 18:05:21 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 18:05:21 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 18:05:21 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 18:05:21 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 18:05:22 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 18:05:22 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 18:05:22 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 18:05:22 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 18:05:22 ERROR XZYStart - System start finish.
+02-04 18:05:32 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:05:33 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:516
+02-04 18:05:48 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:05:49 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 18:05:49 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 18:05:49 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:465
+02-04 18:06:47 INFO  XZYStart - Server[logServer] Start Success!
+02-04 18:06:47 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1855539741-ThreadPool[940448340]] Success
+02-04 18:06:47 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1855539741] Success
+02-04 18:06:48 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 18:06:48 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 18:06:48 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 18:06:48 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 18:06:48 INFO  EntryAction - WebServer Struct Start Success!
+02-04 18:06:48 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 18:06:48 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 18:06:48 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 18:06:49 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 18:06:49 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 18:06:49 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 18:06:49 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 18:06:49 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 18:06:49 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 18:06:50 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 18:06:50 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 18:06:50 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 18:06:51 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 18:06:51 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 18:06:51 ERROR XZYStart - System start finish.
+02-04 18:06:52 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:06:53 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:432
+02-04 18:07:08 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:07:08 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 18:07:09 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 18:07:09 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1248
+02-04 18:07:14 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:07:42 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:28702
+02-04 18:08:51 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:08:51 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:185
+02-04 18:08:58 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:08:58 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 18:09:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:09:12 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 18:09:12 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 18:09:12 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 18:09:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:34
+02-04 18:09:40 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:09:40 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+02-04 18:09:43 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 18:09:43 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:31
+02-04 19:57:04 INFO  XZYStart - Server[logServer] Start Success!
+02-04 19:57:05 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1601600603-ThreadPool[443869649]] Success
+02-04 19:57:05 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1601600603] Success
+02-04 19:57:05 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 19:57:05 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 19:57:06 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 19:57:06 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 19:57:06 INFO  EntryAction - WebServer Struct Start Success!
+02-04 19:57:06 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[574568002]] Success
+02-04 19:57:06 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 19:57:06 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 19:57:06 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 19:57:08 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 19:57:08 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 19:57:08 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 19:57:08 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 19:57:08 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 19:57:08 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 19:57:09 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 19:57:09 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 19:57:09 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 19:57:09 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 19:57:09 ERROR XZYStart - System start finish.
+02-04 19:57:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:465
+02-04 19:57:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:13 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 19:57:13 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 19:57:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:900
+02-04 19:57:52 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:52 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15
+02-04 19:57:52 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:52 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+02-04 19:57:55 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 19:57:55 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:57:55 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+02-04 19:58:14 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:58:14 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:50
+02-04 19:58:16 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 19:58:16 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:16
+02-04 20:53:13 INFO  XZYStart - Server[logServer] Start Success!
+02-04 20:53:13 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1855539741-ThreadPool[940448340]] Success
+02-04 20:53:13 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1855539741] Success
+02-04 20:53:15 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 20:53:15 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 20:53:15 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 20:53:15 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 20:53:15 INFO  EntryAction - WebServer Struct Start Success!
+02-04 20:53:15 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1461474945]] Success
+02-04 20:53:15 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 20:53:15 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 20:53:15 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 20:53:16 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 20:53:16 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 20:53:16 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 20:53:16 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 20:53:16 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 20:53:17 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 20:53:18 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 20:53:18 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 20:53:18 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 20:53:18 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 20:53:18 ERROR XZYStart - System start finish.
+02-04 20:53:48 INFO  XZYStart - Server[logServer] Start Success!
+02-04 20:53:48 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+02-04 20:53:48 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+02-04 20:53:49 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 20:53:49 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 20:53:49 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 20:53:49 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 20:53:49 INFO  EntryAction - WebServer Struct Start Success!
+02-04 20:53:49 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1759250827]] Success
+02-04 20:53:49 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 20:53:49 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 20:53:50 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 20:53:51 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 20:53:51 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 20:53:51 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 20:53:51 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 20:53:51 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 20:53:51 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 20:53:52 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 20:53:52 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 20:53:52 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 20:53:52 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 20:53:52 ERROR XZYStart - System start finish.
+02-04 20:54:56 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:54:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:554
+02-04 20:54:57 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:54:57 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 20:54:57 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 20:54:57 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:586
+02-04 20:54:59 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:54:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:13
+02-04 20:54:59 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:54:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:22
+02-04 20:55:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:55:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:10
+02-04 20:55:05 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 20:55:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:12
+02-04 21:10:02 INFO  XZYStart - Server[logServer] Start Success!
+02-04 21:10:02 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1855539741-ThreadPool[940448340]] Success
+02-04 21:10:02 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1855539741] Success
+02-04 21:10:03 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-04 21:10:03 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-04 21:10:03 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-04 21:10:03 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-04 21:10:03 INFO  EntryAction - WebServer Struct Start Success!
+02-04 21:10:03 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[351877391]] Success
+02-04 21:10:04 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-04 21:10:04 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-04 21:10:04 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-04 21:10:05 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-04 21:10:05 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-04 21:10:05 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-04 21:10:05 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-04 21:10:05 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-04 21:10:05 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-04 21:10:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-04 21:10:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-04 21:10:07 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-04 21:10:07 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-04 21:10:07 ERROR XZYStart - System start finish.
+02-04 21:10:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 21:10:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:447
+02-04 21:10:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-04 21:10:12 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-04 21:10:13 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 30 in HQL: [FROM sl.domain.User WHERE id=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+02-04 21:10:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:792

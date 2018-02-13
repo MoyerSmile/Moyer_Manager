@@ -1,0 +1,30 @@
+package sl.service;
+
+import java.awt.image.BufferedImage;
+
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018年1月18日
+ */
+public interface TLoginService {
+    /**
+     * 用户名密码登录
+     * 
+     * @param name
+     * @param password
+     * @return
+     * @throws Exception
+     */
+    public Boolean login(String name, String password) throws Exception;
+
+    /**
+     * 生成一个验证码并保存到redis中
+     * 
+     * @param response
+     * @return
+     */
+    public BufferedImage genCaptcha(HttpServletResponse response);
+}

@@ -1,0 +1,194 @@
+package sl.action;
+
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.lang3.StringUtils;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import sl.domain.User;
+import sl.service.TLoginService;
+import sl.service.TUserService;
+import sl.service.impl.LoginServiceImpl;
+import sl.service.impl.UserServiceImpl;
+import sl.util.MD5Util;
+import sl.util.SlLoginConfig;
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class UserAction extends HttpAction {
+    private TUserService  userService  = new UserServiceImpl();
+    private TLoginService loginService = new LoginServiceImpl();
+
+    // 用户注册，或则修改
+    public String save(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        try {
+            String id = request.getParameter("id");
+            String account = request.getParameter("account");
+            String userName = request.getParameter(SlLoginConfig.USERNAME);
+            String password = request.getParameter(SlLoginConfig.PASSWORD);
+            String photo = request.getParameter("photo");
+            String telephone = request.getParameter("telephone");
+            String email = request.getParameter("email");
+            String departmentId = request.getParameter("departmentId");
+            String onDuty = request.getParameter("onDuty");
+            String postId = request.getParameter("postId");
+            String groupId = request.getParameter("groupId");
+            String address = request.getParameter("address");
+            String lastOperator = request.getParameter("lastOperator");
+
+            // 验证token有效性
+            String token = loginService.byToken(httpInfo, request);
+            if (StringUtils.isBlank(token)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "没有token，请登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+            String validation = loginService.loginByToken(token);
+            if (StringUtils.isBlank(validation)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "token过期，请重新登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            User user = new User();
+            if (id != null && !id.equals("")) {
+                user.setId(Long.valueOf(id));
+            }
+            user.setAccount(account);
+            user.setName(userName);
+            user.setPhoto(photo);
+            user.setTelephone(telephone);
+            user.setEmail(email);
+            if (departmentId != null && !departmentId.equals("")) {
+                user.setDepartmentId(Long.valueOf(departmentId));
+            }
+
+            user.setOnDuty(onDuty == "0" ? true : false);
+            if (postId != null && !postId.equals("")) {
+                user.setPostId(Long.valueOf(postId));
+            }
+            if (groupId != null && !groupId.equals("")) {
+                user.setGroupId(Long.valueOf(groupId));
+            }
+            user.setAddress(address);
+            if (lastOperator != null && !lastOperator.equals("")) {
+                user.setLastOperator(Long.valueOf(lastOperator));
+            }
+            if (StringUtils.isAllBlank(id) || id.equals("0")) {
+                // 新增
+                user.setPassword(MD5Util.getMD5(password));
+                // 更新mysql，redis数据
+                userService.saveUser(user);
+            } else {
+                if (!StringUtils.isAllBlank(password)) {
+                    user.setPassword(MD5Util.getMD5(password));
+                }
+                // 修改
+                userService.updateUser(user);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "服务器连接出现问题，请稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+            return null;
+        }
+        result.put("result", SlLoginConfig.SUCCESSFUL);
+        result.put("cause", "成功");
+        this.writeJson(httpInfo, request, response, result);
+        return null;
+    }
+
+    public String delete(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        try {
+            // 查看有没有token
+            String token = loginService.byToken(httpInfo, request);
+            if (StringUtils.isBlank(token)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "没有token，请登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+            // 验证token有效性
+            String validation = loginService.loginByToken(token);
+            if (StringUtils.isBlank(validation)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "token过期，请重新登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+            // 删除mysql中的移除用户的信息
+            String userId = request.getParameter("id");
+            userService.delectUser(Long.valueOf(userId));
+        } catch (Exception e) {
+            e.printStackTrace();
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "服务器出现问题");
+            this.writeJson(httpInfo, request, response, result);
+        }
+        result.put("result", SlLoginConfig.SUCCESSFUL);
+        result.put("cause", "成功");
+        this.writeJson(httpInfo, request, response, result);
+        return null;
+    }
+
+    public String query(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        JSONArray jarr = new JSONArray();
+        List<User> list = null;
+        try {
+            String userName = request.getParameter("userName");
+            String phone = request.getParameter("phone");
+            String address = request.getParameter("address");
+
+            // 查看有没有token
+            String token = loginService.byToken(httpInfo, request);
+            if (StringUtils.isBlank(token)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "没有token，请登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+            // 验证token有效性，更新生命周期
+            String validation = loginService.loginByToken(token);
+            if (StringUtils.isBlank(validation)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "token过期，请重新登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            list = userService.findUsers(userName, phone, address);
+            if (list != null) {
+                for (User user : list) {
+                    JSONObject js = new JSONObject();
+                    js.put("id", user.getId());
+                    js.put("account", user.getAccount());
+                    js.put("name", user.getName());
+                    js.put("phone", user.getTelephone());
+                    js.put("address", user.getAddress());
+                    jarr.put(js);
+                }
+            }
+        } catch (Exception e) {
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "服务器连接出现问题，请稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+            return null;
+        }
+        this.writeJsonArray(httpInfo, request, response, null, jarr.length(),
+            jarr);
+        return null;
+    }
+}

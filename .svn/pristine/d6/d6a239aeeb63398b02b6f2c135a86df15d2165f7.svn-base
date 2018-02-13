@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src="../js/axios-v0.16.0.min.js"></script>
+		<script src="../js/vue-2.5.3.js"></script>
+		<script src="../js/elementui-2.0.11.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/elementui-2.0.11.css"></link>
+<script src="report_template_2.js"></script>
+<link rel="stylesheet" type="text/css" href="test.css">
+
+
+<script type="text/javascript">
+</script>
+<script>
+	window.onload = function(){
+		SL_PageTemplate.init();
+		SL_PageTemplate.setup(true,'/runData.go?method=runData',10);
+		var option=[{value :"man" ,label:"男"},{value :"woman" ,label:"女"},{value :"1" ,label:"2"}]
+
+		var data=[{name:"name",desc:"密码",label:"姓名",com_type:"input",width:110},
+		{name:"birday",desc:"生日",label:"生日",com_type:"date",width:110},
+		{name:"sex",desc:"性别",label:"性别",com_type:"select",width:110,option:option}]
+		SL_PageTemplate.setReportCondition(data);
+		var winbut=[{type:"input",label:"日期",name:"date",desc:"password",width:200,ifadd:true,ifupdate:true},
+			{type:"input",label:"日期1",name:"date1",desc:"password1",width:200,ifadd:false,ifupdate:true},
+			{type:"input",label:"日期2",name:"date2",desc:"password2",width:200,ifadd:false,ifupdate:true},
+			{type:"date",label:"地址",name:"address",desc:"密码",width:230,ifadd:false,ifupdate:true},
+			{type:"time",label:"电话",name:"phone",desc:"电话",width:230,ifadd:false,ifupdate:true},
+			{type:"datetime",label:"日期",name:"phone2",desc:"电话2",width:230,ifadd:true,ifupdate:true},
+			{type:"select",name:"选择",desc:"选择",label:"选择",width:230,ifadd:false,ifupdate:true,option:option},
+			{type:"switch",name:"选择1",desc:"选择1",label:"选择1",width:230,ifadd:true,ifupdate:true},
+			{type:"checkbox",name:"多选",desc:"多选1",label:"多选1",width:230,ifadd:true,ifupdate:true,option:option}]
+		var optionAdd={winW:600,winN:"添加label",winUrl:"/runData.go?method=runData",winBut:winbut}
+		var optionUpdate={winW:600,winN:"修改label",winUrl:"/runData.go?method=showById",winBut:winbut}
+		var optionDelete={winW:600,winN:"删除label",winUrl:"/runData.go?method=showById"}
+		var butdata=[{type:"submit",desc:"查询",label:"查询",width:100},{type:"add",desc:"添加",label:"添加",width:120,option:optionAdd},{type:"update",desc:"update",label:"修改",width:120,option:optionUpdate},{type:"delete",desc:"删除",label:"删除",width:100,option:optionDelete}]
+		SL_PageTemplate.setButton(butdata);
+		namedata=[{prop:"date",label:"日期",ifshow:true,ifsort:false,where:"center",width:300},{prop:"address",label:"地址",ifshow:true,ifsort : true,where:"center",width:300},{prop:"phone",label:"电话",ifshow:true,ifsort : true,where:"center"}]
+		SL_PageTemplate.setHeader(namedata);
+		SL_PageTemplate.start();
+	};
+</script>
+</head>
+
+<body>
+</body>
+</html>

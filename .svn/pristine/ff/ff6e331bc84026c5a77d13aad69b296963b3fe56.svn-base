@@ -1,0 +1,53 @@
+package sl.server.web;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import com.xzy.base_c.InfoContainer;
+
+import server.xzy.socket.IReleaser;
+import server.xzy.socket.XZYSocket;
+import server.xzy.websocket.XZYWebSocketServer.XZYWebSocket;
+
+public class SLWebSocketReleaser implements IReleaser {
+    @Override
+    public void init(XZYSocket socketServer) throws Exception {
+
+    }
+
+    @Override
+    public void execute(InfoContainer cmdInfo) {
+        XZYWebSocket conn = (XZYWebSocket) cmdInfo
+            .getInfo(XZYSocket.SOCKET_FLAG);
+
+        Object cmd = cmdInfo.getInfo(XZYSocket.CMD_FLAG);
+        Object data = cmdInfo.getInfo(XZYSocket.DATA_FLAG);
+
+        if (cmd == XZYSocket.SOCKET_CONNECT_CMD) {
+            JSONObject json = new JSONObject();
+            try {
+                json.put("url", "abc");
+            } catch (JSONException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+            WebSocketManager.getSingleInstance().addSocket(conn);
+            WebSocketManager.getSingleInstance().sendMessage(
+                conn.getInfo(WebSocketManager.WEBSOCKET_UID_FLAG).toString(),
+                json);
+        } else if (cmd == XZYSocket.SOCKET_DISCONNECT_CMD) {
+            WebSocketManager.getSingleInstance().removeSocket(conn);
+        } else {
+            try {
+                JSONObject msgObj = new JSONObject(data);
+                String msg = msgObj.getString("id");
+                if (msg.equals("")) {
+
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
+}

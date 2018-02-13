@@ -1,0 +1,249 @@
+package sl.action;
+
+import java.awt.image.BufferedImage;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.lang3.StringUtils;
+import org.json.JSONObject;
+
+import com.xzy.base.server.db.RedisServer;
+
+import io.jsonwebtoken.Claims;
+import sl.domain.User;
+import sl.service.TLoginService;
+import sl.service.impl.LoginServiceImpl;
+import sl.util.JsonReader;
+import sl.util.MD5Util;
+import sl.util.SlLoginConfig;
+import sl.util.TokenUtil;
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class LoginAction extends HttpAction {
+
+    private TLoginService loginService = new LoginServiceImpl();
+
+    /**
+     * 创建登录验证码
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     */
+    public void createLoginVerify(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) {
+        try {
+            // 把校验码转为图像
+            BufferedImage image = loginService.genCaptcha(request, response);
+            response.setContentType("image/jpeg");
+            // 输出图像
+            ServletOutputStream outStream = response.getOutputStream();
+            ImageIO.write(image, "jpeg", outStream);
+            outStream.close();
+        } catch (Exception ex) {
+            ex.getMessage();
+        }
+    }
+
+    /**
+     * 使用账号密码登录
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    public String loginByAccount(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        try {
+            JSONObject json = JsonReader.receivePost(request);
+            String userName = json.get(SlLoginConfig.USERNAME).toString();
+            String password = json.get(SlLoginConfig.PASSWORD).toString();
+            String code = json.get(SlLoginConfig.CODE).toString();
+
+            // 是否需要踢掉已经登录的用户
+            if (SlLoginConfig.LOGNI_ONLINE) {
+
+            }
+
+            // 一个浏览器只要一个token
+            Cookie[] cookies = request.getCookies();
+            String checkToken = null;
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("TT_TOKEN")) {
+                    checkToken = cookie.getValue().toString();
+                    RedisServer.getSingleInstance().removeKey(checkToken);
+                }
+            }
+            // 1判断验证码是否输入正确
+            String sessionId = request.getSession().getId();
+            String captcha = RedisServer.getSingleInstance()
+                .getValue(sessionId + SlLoginConfig.CAPTCHA);
+            if (!captcha.equals(code.toUpperCase())) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "验证码输入错误");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            // 2判断用户名是否正确
+            User user = loginService.validationName(userName);
+            if (user == null) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "用户名不存在");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            // 3判断用户名与密码(md5加密)是否匹配
+            User user1 = loginService.loginByAccount(userName,
+                MD5Util.getMD5(password));
+            if (user1 == null) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "用户名与密码不匹配");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            // 4生成token保存到redis中 ,设置过期时间，返回登录成功
+            Map<String, Object> claims = new HashMap<>();
+            claims.put("iss", SlLoginConfig.JWT_ISS);// 发行人
+            claims.put("account", user1.getName());// 用户名
+            claims.put("userId", user1.getId());// 用户ID
+            String token = TokenUtil.createJWT(user1.getId().toString(),
+                user1.getName(), claims, SlLoginConfig.JWT_OUERDUE);
+
+            // 保存到redis中，过期时间为s
+            user1.setPassword(null);
+            RedisServer.getSingleInstance().setValue(token, user1.toString(),
+                SlLoginConfig.REDIS_TOKEN_OUERDUE);
+
+            // 5添加写cookie的逻辑，cookie的有效期是关闭浏览器就失效。将token保存到cookis中
+            Cookie cookie = new Cookie("TT_TOKEN", token);
+            cookie.setHttpOnly(true);
+            cookie.setMaxAge(100 * 365 * 24 * 60 * 60);
+            response.addCookie(cookie);
+
+            result.put("result", SlLoginConfig.SUCCESSFUL);
+            result.put("cause", "登录成功");
+            this.writeJson(httpInfo, request, response, result);
+        } catch (Exception e) {
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "连接超时，请稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+        }
+        return null;
+    }
+
+    /**
+     * 使用token登录
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    public String loginByToken(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        try {
+            // 1:取cookie中的token
+            Cookie[] cookies = request.getCookies();
+            String checkToken = null;
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("TT_TOKEN")) {
+                    checkToken = cookie.getValue().toString();
+                }
+            }
+            if (StringUtils.isBlank(checkToken)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "没有token，请登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            try {
+                Claims claims = TokenUtil.parseJWT(checkToken);// 验证token是否被更改
+            } catch (Exception e) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "token过期，请重新登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+
+            // 查询redis是否存在token
+            String token = loginService.loginByToken(checkToken);
+            if (StringUtils.isBlank(token)) {
+                result.put("result", SlLoginConfig.FAILURE);
+                result.put("cause", "token过期，请重新登录");
+                this.writeJson(httpInfo, request, response, result);
+                return null;
+            }
+            result.put("result", SlLoginConfig.SUCCESSFUL);
+            result.put("cause", "使用token登录成功");
+            this.writeJson(httpInfo, request, response, result);
+        } catch (Exception e) {
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "连接超时，请稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+        }
+        return null;
+    }
+
+    public String createLoginQCode(HttpInfo httpInfo,
+            HttpServletRequest request, HttpServletResponse response)
+            throws Exception {
+        System.out.println("create login qrcode");
+        return null;
+    }
+
+    public String loginByQCode(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("login By QCode");
+        return null;
+    }
+
+    /**
+     * 退出登录
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     */
+    public String exitLogin(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject result = new JSONObject();
+        try {
+            // 1:取cookie中的token
+            Cookie[] cookies = request.getCookies();
+            String checkToken = null;
+            for (Cookie cookie : cookies) {
+                if (cookie.getName().equals("TT_TOKEN")) {
+                    checkToken = cookie.getValue().toString();
+                    // 移除redis中的token
+                    RedisServer.getSingleInstance().removeKey(checkToken);
+                }
+            }
+            result.put("result", SlLoginConfig.SUCCESSFUL);
+            result.put("cause", "退出成功");
+            this.writeJson(httpInfo, request, response, result);
+        } catch (Exception e) {
+            result.put("result", SlLoginConfig.FAILURE);
+            result.put("cause", "服务器连接超时，稍后再试");
+            this.writeJson(httpInfo, request, response, result);
+        }
+        return null;
+    }
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="../../js/axios-v0.16.0.min.js"></script>
+<script type="text/javascript" src="../../js/vue-2.5.3.js"></script>
+<script type="text/javascript" src="../../js/elementui-2.0.11.js"></script>
+<link rel="stylesheet" href="../../css/elementui-2.0.11.css">
+<style>
+</style>
+</head>
+<body>
+<div id="app">
+		用户名:<el-input v-model="userName" auto-complete="off" style="width:140px" ></el-input> 
+		电话:<el-input v-model="phone" auto-complete="off" style="width:140px" ></el-input> 
+		<el-button type="primary" @click="search"  >查询</el-button>
+		<el-button type="success" @click="addDialog"  style="width:90px;" :show-close="showClose" :close-on-click-modal="closeModal">增加</el-button>
+		<el-button type="primary" @click="logout"  style="width:240px;margin-left:120px" >退出</el-button>
+		<div id="loginInfo"></div>
+<template>
+  <el-table :data="tableData" style="width: 100%" >
+   <el-table-column label="序号" width="180" v-if="false">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.id }}</span>
+      </template>
+    </el-table-column> 
+       <el-table-column label="账号" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.account }}</span>
+      </template>
+    </el-table-column> 
+     <el-table-column label="用户名" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.name }}</span>
+      </template>
+    </el-table-column> 
+    <el-table-column label="密码" width="180" v-if="false">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.password }}</span>
+      </template>
+    </el-table-column>
+      <el-table-column label="电话" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.phone }}</span>
+      </template>
+    </el-table-column> 
+      <el-table-column label="地址" width="180">
+      <template slot-scope="scope">
+        <span style="margin-left: 10px">{{ scope.row.address }}</span>
+      </template>
+    </el-table-column> 
+    <el-table-column label="操作">
+      <template slot-scope="scope">
+        <el-button size="mini" @click="handleEdit(scope.$index, scope.row)">编辑</el-button>
+        <el-button size="mini" type="danger" @click="handleDelete(scope.$index, scope.row)" >删除</el-button>
+      </template>
+    </el-table-column>
+  </el-table>
+</template>
+
+	<el-dialog :visible.sync="addDialogVisible" width="500px" >
+		<template> 
+		<el-form :model="form" >
+		<el-form-item label="序号" :label-width="formLabelWidth" v-if="false"> 
+		<el-input v-model="form.id" auto-complete="off" style="width:240px" v-if="false" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="账号" :label-width="formLabelWidth"> 
+		<el-input v-model="form.account" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="用户名" :label-width="formLabelWidth"> 
+		<el-input v-model="form.name" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="密码"  :label-width="formLabelWidth" > 
+		<el-input v-model="form.pwd" auto-complete="off" style="width:240px" :autofocus="autofocus" ></el-input> 
+		</el-form-item> 
+		<el-form-item label="电话" :label-width="formLabelWidth"> 
+		<el-input v-model="form.phone" auto-complete="off" style="width:240px"  ></el-input> 
+		</el-form-item> 
+		<el-form-item label="住址" :label-width="formLabelWidth"> 
+		<el-input v-model="form.address" auto-complete="off" style="width:240px"  ></el-input> 
+		</el-form-item> 
+		<el-button type="primary" @click="submit"  style="width:240px;margin-left:120px" >提交</el-button>
+		</el-form> 
+		</template> 
+	</el-dialog>
+</div>
+</body>
+<script>
+var data = {
+	addDialogVisible: false,
+	userName:"",
+	phone:"",
+	autofocus:true,
+	closeModal:false,
+	showClose:false,
+	tableData:"",
+    form: {
+		id:"",    	
+        name: '',
+        account:"",
+        pwd:"",
+        phone:"",
+        address:""
+      },
+      formLabelWidth: '120px',
+      logout(event){
+    	  axios({
+  		    method:'post',
+  		    url:'/login.go?method=exitLogin',
+  		    data:{
+  		    } 
+  			}).then(function (response) {
+  	          console.log(response.data);
+  	            if(response.data.result == "-1"){
+  	            }else{
+  	            	window.location.href="../login/login.html";
+  	            }
+  	        })
+  	        .catch(function (error) {
+  	          console.log(error);
+  	     });
+      },
+      handleEdit(index,rows){
+		  data.form.name = rows.name;
+		  data.form.account = rows.account;
+		  data.form.phone = rows.phone;
+		  data.form.pwd = rows.password;
+		  data.form.id = rows.id;
+		  data.form.address = rows.address;
+		  data.addDialogVisible = true;
+      },
+      handleDelete(index,rows){
+    	  this.$confirm('此操作将永久删除用户 ' + data.form.name + ', 是否继续?', '提示', { type: 'warning' }) 
+          .then(() => { // 向请求服务端删除 
+        	  var id = rows.id;
+        	  axios({
+      		    method:'post',
+      		    url:'/user.go?method=delete',
+      		    params:{
+      		    	id:id,
+      		    } ,
+      			}).then(function (response) {
+      				if(response.data.result=="1"){
+      					alert("删除成功!");
+      					window.location.reload();
+      				}else if(response.data.result=="-1"){
+    					alert(response.data.cause);
+    					window.location.href="../login/login.html";
+    				}
+      	        })
+      	        .catch(function (error) {
+      	          console.log(error);
+      	     });
+         }) .catch(() => { 
+             this.$message.info('已取消操作!');
+      });
+    	 
+      },
+      addDialog(){
+    	  data.addDialogVisible=true;
+    	  var form = data.form;
+    	  form.name= "";
+    	  form.account = "";
+    	  form.id = "";
+    	  form.pwd = "";
+    	  form.address = "";
+    	  form.phone = "";
+      },
+      submit(){
+    	  var id = data.form.id;
+    	  var name = data.form.name;
+    	  var account = data.form.account;
+    	  var password = data.form.pwd;
+    	  var phone = data.form.phone;
+    	  var address = data.form.address;
+    	  axios({
+    		    method:'post',
+    		    url:'/user.go?method=save',
+    		    params:{
+    		    	id:id,
+    		    	account:account,
+    		    	userName:name,
+    		    	password:password,
+    		    	telephone:phone,
+    		    	address:address
+    		    } ,
+    			}).then(function (response) {
+    				if(response.data.result=="1"){
+    					data.centerDialogVisible=false;
+    					data.form.id = "";
+    					data.form.name ="";
+    					data.form.account="";
+    					data.form.pwd="";
+    					data.form.phone = "";
+    					data.form.address="";
+    					alert("操作成功!");
+    					window.location.reload();
+    				}else if(response.data.result=="-1"){
+    					alert(response.data.cause);
+    					window.location.href="../login/login.html";
+    				}
+    	        })
+    	        .catch(function (error) {
+    	          console.log(error);
+    	     });
+      },search(event){
+    	  var userName = data.userName;
+    	  var phone = data.phone;
+    	  axios({
+    		    method:'post',
+    		    url:'/user.go?method=query',
+    		    params:{
+    		    	userName:userName,
+    		    	phone:phone
+    		    } ,
+    			}).then(function (response) {
+    				console.log(response.data);
+    				if(response.data.success == "true"){
+    					data.tableData = response.data.rows;
+    				}else if(response.data.result=="-1"){
+    					alert(response.data.cause);
+    					window.location.href="../login/login.html";
+    				}
+    	        })
+    	        .catch(function (error) {
+    	          console.log(error);
+    	     });
+      }
+};
+new Vue({el:"#app",data:data});
+window.onload=function(){
+	axios({
+	    method:'post',
+	    url:'/user.go?method=query',
+	    params:{
+	    } ,
+		}).then(function (response) {
+			console.log(response.data);
+			if(response.data.success == "true"){
+				data.tableData = response.data.rows;
+			}else if(response.data.result=="-1"){
+				alert(response.data.cause);
+				window.location.href="../login/login.html";
+			}
+        })
+        .catch(function (error) {
+          console.log(error);
+     });
+}
+
+</script>
+</html>

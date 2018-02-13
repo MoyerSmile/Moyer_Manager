@@ -1,0 +1,26 @@
+package sl.service.impl;
+
+import java.util.List;
+
+import sl.dao.TLoginDao;
+import sl.dao.impl.LoginDaoImpl;
+import sl.domain.User;
+import sl.service.TLoginService;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018Äê1ÔÂ18ÈÕ
+ */
+public class LoginServiceImpl implements TLoginService {
+
+    private TLoginDao loginDao = new LoginDaoImpl();
+
+    @Override
+    public List<User> login(String name, String password) throws Exception {
+        // TODO Auto-generated method stub
+        System.out.println("LoginServiceImpl");
+        return loginDao.login(name, password);
+    }
+
+}

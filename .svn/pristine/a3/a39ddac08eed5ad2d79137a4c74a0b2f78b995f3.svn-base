@@ -1,0 +1,82 @@
+package sl.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+import sl.service.TLoginService;
+import sl.service.impl.LoginServiceImpl;
+import sl.util.JsonReader;
+import sl.util.VerificationCodeUtil;
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class LoginAction extends HttpAction {
+
+    private TLoginService        loginService = new LoginServiceImpl();
+
+    private VerificationCodeUtil verificationCodeUtil;
+
+    /**
+     * 创建登录验证码
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     */
+    public String createLoginVerify(HttpInfo httpInfo,
+            HttpServletRequest request, HttpServletResponse response) {
+        // try {
+        // 把校验码转为图像
+        // BufferedImage image = authService.genCaptcha(response);
+
+        // response.setContentType("image/jpeg");
+        //
+        // // 输出图像
+        // ServletOutputStream outStream = response.getOutputStream();
+        // ImageIO.write(image, "jpeg", outStream);
+        // outStream.close();
+        // } catch (Exception ex) {
+        // logger.error(ex.getMessage(), ex);
+        // }
+        return null;
+    }
+
+    /**
+     * 使用账号密码登录
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    public String loginByAccount(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        net.sf.json.JSONObject json = JsonReader.receivePost(request);
+        System.out.println(json);
+        System.out.println("login by account");
+        return null;
+    }
+
+    public String loginByToken(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("login by token");
+
+        return null;
+    }
+
+    public String createLoginQCode(HttpInfo httpInfo,
+            HttpServletRequest request, HttpServletResponse response)
+            throws Exception {
+        System.out.println("create login qrcode");
+        return null;
+    }
+
+    public String loginByQCode(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("login By QCode");
+        return null;
+    }
+}

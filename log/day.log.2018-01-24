@@ -1,0 +1,22 @@
+01-24 12:54:13 INFO  XZYStart - Server[logServer] Start Success!
+01-24 12:54:13 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1601600603-ThreadPool[443869649]] Success
+01-24 12:54:13 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1601600603] Success
+01-24 12:54:13 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-24 12:54:13 INFO  EntryAction - WebServer Struct Start Success!
+01-24 12:54:13 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[225290371]] Success
+01-24 12:54:14 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-24 12:54:14 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-24 12:54:14 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-24 12:54:14 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-24 12:54:14 ERROR XZYStart - System start finish.
+01-24 13:01:05 INFO  XZYStart - Server[logServer] Start Success!
+01-24 13:01:05 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847084571-ThreadPool[723174844]] Success
+01-24 13:01:05 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847084571] Success
+01-24 13:01:05 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-24 13:01:05 INFO  EntryAction - WebServer Struct Start Success!
+01-24 13:01:05 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[225290371]] Success
+01-24 13:01:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-24 13:01:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-24 13:01:06 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-24 13:01:06 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-24 13:01:06 ERROR XZYStart - System start finish.

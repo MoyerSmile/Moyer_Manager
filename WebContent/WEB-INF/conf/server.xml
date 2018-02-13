@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="GB2312"?>
+<start_server>
+	<server>
+		<server_name>SL_Manager_Redis_Server</server_name>
+		<desc></desc>
+		<class_name>com.xzy.base.server.db.RedisServer</class_name>
+		<create_method>getSingleInstance</create_method>
+		<enable_server>true</enable_server>
+		<failure_system_exit>true</failure_system_exit>
+
+		<para key="node" value="192.168.1.10:6379"/>
+	</server>
+	
+	<server>
+		<server_name>SL_Manager_WebSocketServer</server_name>
+		<desc></desc>
+		<class_name>server.xzy.websocket.XZYWebSocketServer</class_name>
+		<create_method>getSingleInstance</create_method>
+		<enable_server>true</enable_server>
+		<failure_system_exit>true</failure_system_exit>
+
+		<para key="port" value="1979"/>
+		<para key="releaser" value="sl.server.web.SLWebSocketReleaser"/>
+	</server>
+</start_server>

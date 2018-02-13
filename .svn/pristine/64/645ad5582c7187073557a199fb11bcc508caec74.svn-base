@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2018-1-19 15:08:43 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="sl.domain.Department" table="department" catalog="EASYTAXI">
+        <composite-id name="id" class="sl.domain.DepartmentId">
+            <key-property name="id" type="long">
+                <column name="id" />
+            </key-property>
+            <key-property name="departmentId" type="long">
+                <column name="department_id" />
+            </key-property>
+        </composite-id>
+        <property name="name" type="string">
+            <column name="name" length="30" />
+        </property>
+        <property name="higherId" type="java.lang.Long">
+            <column name="higher_id" />
+        </property>
+        <property name="exist" type="java.lang.Boolean">
+            <column name="exist" />
+        </property>
+        <property name="lastOperator" type="java.lang.Long">
+            <column name="last_operator" />
+        </property>
+        <property name="remark" type="string">
+            <column name="remark" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

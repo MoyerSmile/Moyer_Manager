@@ -1,0 +1,38 @@
+package sl.action;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class LoginAction extends HttpAction {
+
+	public String createLoginVerify(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("create login verify code");
+		return null;
+	}
+	
+	public String loginByAccount(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("login by account");
+		return null;
+	}
+	
+	public String loginByToken(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("login by token");
+		
+		return null;
+	}
+	
+
+	public String createLoginQCode(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("create login qrcode");
+		return null;
+	}
+	
+
+	public String loginByQCode(HttpInfo httpInfo, HttpServletRequest request, HttpServletResponse response) throws Exception {
+		System.out.println("login By QCode");
+		return null;
+	}
+}

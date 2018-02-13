@@ -1,0 +1,513 @@
+01-21 12:02:41 INFO  XZYStart - Server[logServer] Start Success!
+01-21 12:02:41 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_525130086-ThreadPool[1515078891]] Success
+01-21 12:02:41 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_525130086] Success
+01-21 12:02:41 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 12:02:41 INFO  EntryAction - WebServer Struct Start Success!
+01-21 12:02:41 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2134991632]] Success
+01-21 12:02:41 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 12:02:41 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 12:02:42 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 12:02:42 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 12:02:42 ERROR XZYStart - System start finish.
+01-21 12:03:15 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 12:03:15 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+01-21 12:03:39 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 12:03:39 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-21 14:48:19 INFO  XZYStart - Server[logServer] Start Success!
+01-21 14:48:19 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1147520339-ThreadPool[1136377173]] Success
+01-21 14:48:19 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1147520339] Success
+01-21 14:48:20 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 14:48:20 INFO  EntryAction - WebServer Struct Start Success!
+01-21 14:48:20 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1428475041]] Success
+01-21 14:48:20 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 14:48:20 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 14:48:20 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 14:48:20 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 14:48:20 ERROR XZYStart - System start finish.
+01-21 14:49:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 14:49:23 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:12749
+01-21 14:49:53 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 14:51:03 INFO  XZYStart - Server[logServer] Start Success!
+01-21 14:51:03 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1147520339-ThreadPool[1136377173]] Success
+01-21 14:51:03 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1147520339] Success
+01-21 14:51:03 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 14:51:03 INFO  EntryAction - WebServer Struct Start Success!
+01-21 14:51:03 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1428475041]] Success
+01-21 14:51:03 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 14:51:03 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 14:51:04 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 14:51:04 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 14:51:04 ERROR XZYStart - System start finish.
+01-21 14:51:18 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 14:51:18 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+01-21 14:54:09 INFO  XZYStart - Server[logServer] Start Success!
+01-21 14:54:09 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 14:54:09 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 14:54:09 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 14:54:09 INFO  EntryAction - WebServer Struct Start Success!
+01-21 14:54:09 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1345483087]] Success
+01-21 14:54:09 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 14:54:09 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 14:54:10 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 14:54:10 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 14:54:10 ERROR XZYStart - System start finish.
+01-21 14:54:19 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 14:54:19 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:9
+01-21 15:17:19 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:17:19 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 15:17:19 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 15:17:19 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:17:19 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:17:19 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 15:17:19 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:17:19 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:17:20 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 15:17:20 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 15:17:20 ERROR XZYStart - System start finish.
+01-21 15:17:33 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 15:17:33 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:11
+01-21 15:19:37 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:19:37 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 15:19:37 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 15:19:38 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:19:38 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:19:38 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[480903748]] Success
+01-21 15:19:38 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:19:38 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:19:38 ERROR XZYStart - Server[SL_Manager_Web_Server] Start Failure,System will be exit!
+01-21 15:19:38 INFO  XZYStart - System will be shutdown normally.
+01-21 15:19:58 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:19:58 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 15:19:58 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 15:19:59 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:19:59 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:19:59 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 15:19:59 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:19:59 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:19:59 ERROR XZYStart - Server[SL_Manager_Web_Server] Start Failure,System will be exit!
+01-21 15:19:59 INFO  XZYStart - System will be shutdown normally.
+01-21 15:19:59 INFO  XZYStart - Server[logServer] Will be Exit!
+01-21 15:21:10 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:21:10 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1147520339-ThreadPool[1136377173]] Success
+01-21 15:21:10 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1147520339] Success
+01-21 15:21:11 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:21:11 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:21:11 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2095486832]] Success
+01-21 15:21:11 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:21:11 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:21:11 ERROR XZYStart - Server[SL_Manager_Web_Server] Start Failure,System will be exit!
+01-21 15:21:11 INFO  XZYStart - System will be shutdown normally.
+01-21 15:21:11 INFO  XZYStart - Server[logServer] Will be Exit!
+01-21 15:22:19 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7b8b4bbe--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:13;totalCost:8;maxCost:4;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@cecf639--Web Entry Mapping Server[login]::avgCost:11;times:1;totalCost:11;maxCost:11;minCost:11
+
+01-21 15:22:29 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:22:29 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 15:22:29 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 15:22:30 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:22:30 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:22:30 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1423561005]] Success
+01-21 15:23:04 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:23:04 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 15:23:04 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 15:23:04 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:23:04 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:23:04 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 15:23:04 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:23:04 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:23:05 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 15:23:05 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 15:23:05 ERROR XZYStart - System start finish.
+01-21 15:23:17 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 15:58:49 INFO  XZYStart - Server[logServer] Start Success!
+01-21 15:58:49 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 15:58:49 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 15:58:50 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 15:58:50 INFO  EntryAction - WebServer Struct Start Success!
+01-21 15:58:50 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 15:58:50 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 15:58:50 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 15:58:50 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 15:58:50 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 15:58:50 ERROR XZYStart - System start finish.
+01-21 16:00:59 INFO  XZYStart - Server[logServer] Start Success!
+01-21 16:00:59 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 16:00:59 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 16:00:59 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 16:00:59 INFO  EntryAction - WebServer Struct Start Success!
+01-21 16:00:59 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 16:00:59 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 16:00:59 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 16:01:00 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 16:01:00 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 16:01:00 ERROR XZYStart - System start finish.
+01-21 16:02:46 INFO  XZYStart - Server[logServer] Start Success!
+01-21 16:02:46 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 16:02:46 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 16:02:47 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 16:02:47 INFO  EntryAction - WebServer Struct Start Success!
+01-21 16:02:47 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 16:02:47 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 16:02:47 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 16:02:47 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 16:02:47 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 16:02:47 ERROR XZYStart - System start finish.
+01-21 16:03:03 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 16:06:47 INFO  XZYStart - Server[logServer] Start Success!
+01-21 16:06:47 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 16:06:47 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 16:06:47 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 16:06:47 INFO  EntryAction - WebServer Struct Start Success!
+01-21 16:06:47 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[216856121]] Success
+01-21 16:06:47 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 16:06:47 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 16:06:47 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 16:06:47 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 16:06:47 ERROR XZYStart - System start finish.
+01-21 16:07:07 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 16:07:07 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:258
+01-21 18:58:16 INFO  XZYStart - Server[logServer] Start Success!
+01-21 18:58:16 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 18:58:16 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 18:58:17 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 18:58:17 INFO  EntryAction - WebServer Struct Start Success!
+01-21 18:58:17 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 18:58:17 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 18:58:17 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 18:58:17 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 18:58:17 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 18:58:17 ERROR XZYStart - System start finish.
+01-21 18:58:39 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:00:05 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:85927
+01-21 19:23:17 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:23:17 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 19:23:17 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 19:23:18 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:23:18 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:23:18 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:23:18 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:23:18 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:23:18 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:23:18 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:23:18 ERROR XZYStart - System start finish.
+01-21 19:23:20 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:24:32 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:71862
+01-21 19:27:10 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:27:10 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 19:27:10 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 19:27:11 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:27:11 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:27:11 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:27:11 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:27:11 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:27:11 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:27:11 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:27:11 ERROR XZYStart - System start finish.
+01-21 19:27:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:27:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:164
+01-21 19:38:28 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:38:28 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 19:38:28 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 19:38:29 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:38:29 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:38:29 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:38:29 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:38:29 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:38:29 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:38:29 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:38:29 ERROR XZYStart - System start finish.
+01-21 19:38:37 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:44:41 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:44:41 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 19:44:41 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 19:44:41 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:44:41 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:44:41 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:44:41 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:44:41 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:44:41 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:44:41 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:44:41 ERROR XZYStart - System start finish.
+01-21 19:44:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:45:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:24836
+01-21 19:45:28 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:45:28 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 19:45:28 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 19:45:28 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:45:28 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:45:28 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:45:28 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:45:28 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:45:28 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:45:28 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:45:28 ERROR XZYStart - System start finish.
+01-21 19:45:34 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:49:07 INFO  XZYStart - Server[logServer] Start Success!
+01-21 19:49:07 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-21 19:49:07 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-21 19:49:08 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 19:49:08 INFO  EntryAction - WebServer Struct Start Success!
+01-21 19:49:08 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 19:49:08 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 19:49:08 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 19:49:08 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 19:49:08 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 19:49:08 ERROR XZYStart - System start finish.
+01-21 19:49:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 19:49:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:281
+01-21 20:10:48 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:10:48 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 20:10:48 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 20:10:48 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:10:48 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:10:48 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:10:48 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:10:48 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:10:48 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:10:48 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:10:48 ERROR XZYStart - System start finish.
+01-21 20:10:54 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:10:54 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:68
+01-21 20:11:08 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:11:08 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:4
+01-21 20:11:14 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:11:14 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1
+01-21 20:15:26 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:15:26 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-21 20:15:26 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-21 20:15:26 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:15:26 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:15:26 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:15:26 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:15:26 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:15:26 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:15:26 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:15:26 ERROR XZYStart - System start finish.
+01-21 20:15:28 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:15:28 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:63
+01-21 20:17:41 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:17:41 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 20:17:41 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 20:17:42 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:17:42 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:17:42 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:17:42 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:17:42 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:17:42 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:17:42 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:17:42 ERROR XZYStart - System start finish.
+01-21 20:17:47 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:17:47 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:68
+01-21 20:19:34 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:21:55 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:21:55 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 20:21:55 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 20:21:55 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:21:55 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:21:55 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:21:55 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:21:55 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:21:55 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:21:55 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:21:55 ERROR XZYStart - System start finish.
+01-21 20:22:04 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:22:04 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:69
+01-21 20:50:35 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:50:35 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-21 20:50:35 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-21 20:50:36 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:50:36 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:50:36 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:50:36 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:50:36 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:50:36 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:50:36 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:50:36 ERROR XZYStart - System start finish.
+01-21 20:50:47 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:50:47 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-21 20:50:47 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-21 20:50:48 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-21 20:50:49 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-21 20:50:49 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-21 20:50:49 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-21 20:50:49 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-21 20:50:49 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-21 20:50:49 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-21 20:50:50 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-21 20:50:50 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 20:50:50 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 20:51:02 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15448
+01-21 20:51:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:56:05 INFO  XZYStart - Server[logServer] Start Success!
+01-21 20:56:05 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 20:56:05 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 20:56:05 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 20:56:05 INFO  EntryAction - WebServer Struct Start Success!
+01-21 20:56:05 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 20:56:06 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-21 20:56:06 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-21 20:56:06 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-21 20:56:07 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-21 20:56:07 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-21 20:56:07 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-21 20:56:07 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-21 20:56:07 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-21 20:56:07 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-21 20:56:08 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 20:56:08 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 20:56:08 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 20:56:08 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 20:56:08 ERROR XZYStart - System start finish.
+01-21 20:56:29 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 20:56:29 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:375
+01-21 21:01:05 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:13;totalCost:2;maxCost:2;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@59402b8f--Web Entry Mapping Server[login]::avgCost:375;times:1;totalCost:375;maxCost:375;minCost:375
+
+01-21 21:06:05 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@2308c6e1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-21 21:21:53 INFO  XZYStart - Server[logServer] Start Success!
+01-21 21:21:53 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-21 21:21:53 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-21 21:21:54 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 21:21:54 INFO  EntryAction - WebServer Struct Start Success!
+01-21 21:21:54 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 21:21:54 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-21 21:21:54 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-21 21:21:54 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-21 21:21:55 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-21 21:21:55 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-21 21:21:55 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-21 21:21:55 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-21 21:21:55 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-21 21:21:55 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-21 21:21:56 ERROR XZYActionContainerServer - Class (sl.action.LoginAction) create instance failure.
+java.lang.ClassCastException: org.hibernate.internal.SessionImpl cannot be cast to org.hibernate.SessionFactory
+	at sl.dao.impl.GenericDAOImpl.<init>(GenericDAOImpl.java:25)
+	at sl.dao.impl.LoginDaoImpl.<init>(LoginDaoImpl.java:14)
+	at sl.service.impl.LoginServiceImpl.<init>(LoginServiceImpl.java:19)
+	at sl.action.LoginAction.<init>(LoginAction.java:19)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at java.lang.Class.newInstance(Class.java:442)
+	at com.xzy.base.server.container.XZYActionContainerServer.loadActionFromXml(XZYActionContainerServer.java:507)
+	at com.xzy.base.server.container.XZYActionContainerServer.loadFromXml(XZYActionContainerServer.java:438)
+	at com.xzy.base.server.container.XZYActionContainerServer.loadFromXml(XZYActionContainerServer.java:365)
+	at com.xzy.base.server.container.XZYActionContainerServer.startServer(XZYActionContainerServer.java:307)
+	at web.xzy.base.EntryAction.init(EntryAction.java:68)
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:456)
+	at org.eclipse.jetty.servlet.ServletHolder.doStart(ServletHolder.java:276)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:779)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:255)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1212)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:610)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:453)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.deploy.bindings.StandardStarter.processBinding(StandardStarter.java:36)
+	at org.eclipse.jetty.deploy.AppLifeCycle.runBindings(AppLifeCycle.java:183)
+	at org.eclipse.jetty.deploy.DeploymentManager.requestAppGoal(DeploymentManager.java:485)
+	at org.eclipse.jetty.deploy.DeploymentManager.addApp(DeploymentManager.java:138)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.fileAdded(ScanningAppProvider.java:142)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider$1.fileAdded(ScanningAppProvider.java:53)
+	at org.eclipse.jetty.util.Scanner.reportAddition(Scanner.java:604)
+	at org.eclipse.jetty.util.Scanner.reportDifferences(Scanner.java:535)
+	at org.eclipse.jetty.util.Scanner.scan(Scanner.java:398)
+	at org.eclipse.jetty.util.Scanner.doStart(Scanner.java:332)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.deploy.providers.ScanningAppProvider.doStart(ScanningAppProvider.java:118)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.deploy.DeploymentManager.startAppProvider(DeploymentManager.java:546)
+	at org.eclipse.jetty.deploy.DeploymentManager.doStart(DeploymentManager.java:221)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at org.eclipse.jetty.util.component.AggregateLifeCycle.doStart(AggregateLifeCycle.java:45)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:53)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.doStart(HandlerWrapper.java:90)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:262)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:59)
+	at server.xzy.jetty.JettyServer.startJetty(JettyServer.java:60)
+	at server.xzy.jetty.JettyServer.initJetty(JettyServer.java:41)
+	at server.xzy.jetty.JettyServer.startServer(JettyServer.java:22)
+	at com.xzy.base_c.XZYStart.runServerByNode(XZYStart.java:174)
+	at com.xzy.base_c.XZYStart.loadAndRunServer(XZYStart.java:105)
+	at com.xzy.base_c.XZYStart.loadAndRunServer(XZYStart.java:84)
+	at com.xzy.base_c.XZYStart.startServer(XZYStart.java:59)
+	at com.xzy.base_c.XZYStart.main(XZYStart.java:228)
+01-21 21:21:56 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 21:21:56 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 21:21:56 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 21:21:56 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 21:21:56 ERROR XZYStart - System start finish.
+01-21 21:22:04 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:22:04 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-21 21:22:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:22:10 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-21 21:22:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:22:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-21 21:22:11 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:22:11 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-21 21:24:54 INFO  XZYStart - Server[logServer] Start Success!
+01-21 21:24:54 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+01-21 21:24:54 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+01-21 21:24:54 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 21:24:54 INFO  EntryAction - WebServer Struct Start Success!
+01-21 21:24:54 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 21:24:54 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 21:24:54 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 21:24:54 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 21:24:54 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 21:24:54 ERROR XZYStart - System start finish.
+01-21 21:25:08 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:25:08 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-21 21:25:08 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-21 21:25:08 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-21 21:25:09 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-21 21:25:09 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-21 21:25:09 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-21 21:25:09 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-21 21:25:09 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-21 21:25:09 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-21 21:25:10 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-21 21:25:10 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 21:25:10 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 21:25:10 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2560
+01-21 21:25:50 INFO  XZYStart - Server[logServer] Start Success!
+01-21 21:25:50 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-21 21:25:50 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-21 21:25:51 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 21:25:51 INFO  EntryAction - WebServer Struct Start Success!
+01-21 21:25:51 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 21:25:51 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 21:25:51 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 21:25:51 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 21:25:51 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 21:25:51 ERROR XZYStart - System start finish.
+01-21 21:26:01 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:26:01 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:133
+01-21 21:26:39 INFO  XZYStart - Server[logServer] Start Success!
+01-21 21:26:39 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1935213383-ThreadPool[1312388412]] Success
+01-21 21:26:39 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1935213383] Success
+01-21 21:26:40 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-21 21:26:40 INFO  EntryAction - WebServer Struct Start Success!
+01-21 21:26:40 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1497377679]] Success
+01-21 21:26:40 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-21 21:26:40 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-21 21:26:40 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-21 21:26:40 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-21 21:26:40 ERROR XZYStart - System start finish.
+01-21 21:26:46 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-21 21:26:46 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-21 21:26:46 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-21 21:26:46 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-21 21:26:47 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-21 21:26:47 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-21 21:26:47 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-21 21:26:47 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-21 21:26:47 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-21 21:26:47 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-21 21:26:48 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-21 21:26:48 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 21:26:48 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-21 21:26:48 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:2525

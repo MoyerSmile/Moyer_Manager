@@ -1,0 +1,40 @@
+package sl.service.impl;
+
+import java.awt.image.BufferedImage;
+
+import javax.servlet.http.HttpServletResponse;
+
+import sl.dao.TLoginDao;
+import sl.dao.impl.LoginDaoImpl;
+import sl.service.TLoginService;
+import sl.util.VerificationCodeUtil;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018年1月18日
+ */
+public class LoginServiceImpl implements TLoginService {
+
+    private TLoginDao loginDao = new LoginDaoImpl();
+
+    @Override
+    public Boolean login(String name, String password) throws Exception {
+
+        return loginDao.login(name, password);
+    }
+
+    @Override
+    public BufferedImage genCaptcha(HttpServletResponse response) {
+        // 生成一个校验码
+        String captcha = VerificationCodeUtil.genCaptcha(5);
+
+        // 将生成的验证码存入redis中，并且设置过期时间
+
+        System.err.println(captcha);
+        // 把校验码转为图像返回
+        BufferedImage image = VerificationCodeUtil.genCaptchaImg(captcha);
+        return image;
+    }
+
+}

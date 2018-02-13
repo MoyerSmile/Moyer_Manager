@@ -1,0 +1,29 @@
+package sl.dao.impl;
+
+import java.util.List;
+
+import org.hibernate.Session;
+
+import sl.dao.TLoginDao;
+import sl.domain.User;
+import sl.util.HibernateUtil;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018Äê1ÔÂ19ÈÕ
+ */
+public class LoginDaoImpl implements TLoginDao {
+
+    @Override
+    public List<User> login(String name, String password) throws Exception {
+        System.err.println(name);
+        System.err.println(password);
+        Session session = HibernateUtil.getSession();
+        List<User> list = session.createQuery("FROM User").list();
+
+        HibernateUtil.closeSession();
+        return list;
+    }
+
+}

@@ -1,0 +1,43 @@
+package sl.service.impl;
+
+import java.util.List;
+
+import sl.dao.TUserDao;
+import sl.dao.impl.UserDaoImpl;
+import sl.domain.User;
+import sl.service.TUserService;
+
+public class UserServiceImpl implements TUserService {
+    private TUserDao userDao = new UserDaoImpl();
+
+    @Override
+    public void saveUser(User user) throws Exception {
+        // ½«Ìí¼Óµ½mysql
+        userDao.saveUser(user);
+    }
+
+    @Override
+    public void updateUser(User user) throws Exception {
+        userDao.updateUser(user);
+    }
+
+    @Override
+    public void delectUser(long userId) throws Exception {
+        // TODO Auto-generated method stub
+        userDao.delectUser(userId);
+    }
+
+    @Override
+    public List<User> findUsers(String userName, String phone, String address)
+            throws Exception {
+        // TODO Auto-generated method stub
+        return userDao.findUsers(userName, phone, address);
+    }
+
+    @Override
+    public User findUser(long userId) throws Exception {
+        // TODO Auto-generated method stub
+        return userDao.findUser(userId);
+    }
+
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="lib/commons-pool2-2.4.2.jar"/>
+	<classpathentry kind="lib" path="lib/jedis-2.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/json.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="lib/mongo-java-driver-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/mongodb-driver-core-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/pinyin.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/asm-commons-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/asm-tree-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/geronimo-annotation_1.0_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/geronimo-jaspic_1.0_spec-1.0.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/geronimo-javamail_1.4_spec-1.7.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/geronimo-jta_1.1_spec-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jetty-all-server-8.0.4.v20111024.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsr311-api-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/com.sun.el-2.2.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/javax.el-2.2.0.v201108011116.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/javax.servlet.jsp-2.2.0.v201112011158.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/javax.servlet.jsp.jstl-1.2.0.v201105211821.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/org.apache.jasper.glassfish-2.2.2.v201112011158.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/org.apache.taglibs.standard.glassfish-1.2.0.v201112081803.jar"/>
+	<classpathentry kind="lib" path="lib/jetty/jsp/org.eclipse.jdt.core-3.7.1.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/xzy_xzy_module"/>
+	<classpathentry kind="output" path="WebContent/WEB-INF/classes"/>
+</classpath>

@@ -1,0 +1,69 @@
+package sl.dao.impl;
+
+import java.util.List;
+
+import org.hibernate.Session;
+
+import sl.dao.TUserDao;
+import sl.domain.User;
+import sl.util.HibernateUtil;
+
+public class UserDaoImpl extends GenericDAOImpl implements TUserDao {
+
+    @Override
+    public void saveUser(User user) throws Exception {
+        Session session = HibernateUtil.getSession();
+        session.save(user);
+        HibernateUtil.closeSession();
+    }
+
+    @Override
+    public void delectUser(User user) throws Exception {
+        Session session = HibernateUtil.getSession();
+        session.delete(user);
+        HibernateUtil.closeSession();
+    }
+
+    @Override
+    public List<User> findUsers(String userName, String phone, String address)
+            throws Exception {
+        Session session = HibernateUtil.getSession();
+        List<User> list = session
+            .createQuery(
+                "FROM User WHERE name LIKE ? AND telephone LIKE ? AND address LIKE ?")
+            .setString(0, "%" + userName + "%")
+            .setString(1, "%" + phone + "%")
+            .setString(2, "%" + address + "%")
+            .list();
+        HibernateUtil.closeSession();
+        return list;
+    }
+
+    @Override
+    public User findUser(long userId) throws Exception {
+        Session session = HibernateUtil.getSession();
+        String hql = "FROM User WHERE id.id=?";
+        List<User> list = session.createQuery(hql).setLong(0, userId).list();
+        HibernateUtil.closeSession();
+
+        // List<Object> params = new ArrayList<>();
+        // params.add(userId);
+        // List<User> list = query(hql, params.toArray());
+
+        if (list.size() > 0) {
+            return list.get(0);
+        }
+        return null;
+    }
+
+    // public static void main(String[] args) {
+    // try {
+    // TUserDao uu = new UserDaoImpl();
+    // User hh = uu.findUser(1);
+    // System.out.println(hh.getName());
+    // } catch (Exception e) {
+    // e.printStackTrace();
+    // }
+    // }
+
+}

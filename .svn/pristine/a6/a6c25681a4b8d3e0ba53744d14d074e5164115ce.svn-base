@@ -1,0 +1,83 @@
+package sl.service.impl;
+
+import java.awt.image.BufferedImage;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.xzy.base.server.db.RedisServer;
+
+import sl.dao.TLoginDao;
+import sl.dao.impl.LoginDaoImpl;
+import sl.domain.User;
+import sl.service.TLoginService;
+import sl.util.SlLoginConfig;
+import sl.util.VerificationCodeUtil;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018年1月18日
+ */
+public class LoginServiceImpl implements TLoginService {
+
+    private TLoginDao loginDao = new LoginDaoImpl();
+
+    @Override
+    public User validationName(String name) {
+        return loginDao.validationName(name);
+    }
+
+    @Override
+    public User loginByAccount(String name, String password) throws Exception {
+        return loginDao.loginByAccount(name, password);
+    }
+
+    @Override
+    public String loginByToken(String token) throws Exception {
+        String tk = RedisServer.getSingleInstance().getValue(token);
+        return tk;
+    }
+
+    @Override
+    public BufferedImage genCaptcha(HttpServletRequest request,
+            HttpServletResponse response) {
+        // 生成一个校验码
+        String captcha = VerificationCodeUtil.genCaptcha(4);
+        // 将生成的验证码存入redis中，并且设置过期时间
+        String sessionId = request.getSession().getId();
+
+        RedisServer.getSingleInstance().setValue(
+            sessionId + SlLoginConfig.CAPTCHA, captcha.toUpperCase(),
+            SlLoginConfig.REDIS_CODE_OUERDUE);
+
+        // 把校验码转为图像返回
+        BufferedImage image = VerificationCodeUtil.genCaptchaImg(captcha);
+        return image;
+    }
+
+    @Override
+    public String exitLogin(String tokenkey) throws Exception {
+        // 将这个token设置为过期，如果用户还有其他的token还是可以继续使用
+        RedisServer.getSingleInstance().removeKey(tokenkey);
+        return null;
+    }
+
+    // public static void main(String[] args) {
+    // try {
+    // RedisServer.getSingleInstance().hset("moyer", "token",
+    // "username777");
+    // RedisServer.getSingleInstance().hset("moyer", "token1",
+    // "username788");
+    // Map<String, String> map = RedisServer.getSingleInstance()
+    // .hgetAll("moyer");
+    //
+    // System.out.println(map.get("moyer"));
+    //
+    // } catch (Exception e) {
+    // // TODO Auto-generated catch block
+    // e.printStackTrace();
+    // }
+    // }
+
+}

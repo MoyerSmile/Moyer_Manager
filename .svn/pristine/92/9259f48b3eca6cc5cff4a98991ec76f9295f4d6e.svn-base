@@ -1,0 +1,24 @@
+package sl.dao;
+
+import java.util.List;
+
+import sl.domain.User;
+
+/**
+ * 
+ * @author moyer
+ * @date 2018年1月18日
+ */
+public interface TLoginDao {
+
+    /**
+     * 用户名密码登录
+     * 
+     * @param name
+     * @param password
+     * @return
+     * @throws Exception
+     */
+    public List<User> login(String name, String password) throws Exception;
+
+}

@@ -1,0 +1,146 @@
+01-26 17:12:03 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:12:03 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-26 17:12:03 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-26 17:12:03 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:12:03 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:12:03 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[611520720]] Success
+01-26 17:12:04 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:12:04 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:12:04 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:12:04 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:12:04 ERROR XZYStart - System start finish.
+01-26 17:17:03 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@fb2c4d2--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:2;times:11;totalCost:27;maxCost:26;minCost:0
+
+01-26 17:20:19 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:20:19 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1659279007-ThreadPool[825337882]] Success
+01-26 17:20:19 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1659279007] Success
+01-26 17:20:20 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:20:20 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:20:20 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2083999882]] Success
+01-26 17:20:20 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:20:20 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:20:20 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:20:20 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:20:20 ERROR XZYStart - System start finish.
+01-26 17:21:05 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:21:05 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1304998416-ThreadPool[1964450102]] Success
+01-26 17:21:05 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1304998416] Success
+01-26 17:21:06 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:21:06 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:21:06 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2083999882]] Success
+01-26 17:21:06 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:21:06 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:21:06 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:21:06 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:21:06 ERROR XZYStart - System start finish.
+01-26 17:21:59 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:21:59 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:1
+01-26 17:22:07 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:22:07 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:22:21 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:22:21 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:22:34 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:22:34 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:23:19 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:23:19 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1855539741-ThreadPool[940448340]] Success
+01-26 17:23:19 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1855539741] Success
+01-26 17:23:20 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:23:20 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:23:20 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2083999882]] Success
+01-26 17:23:20 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:23:20 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:23:20 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:23:20 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:23:20 ERROR XZYStart - System start finish.
+01-26 17:23:54 INFO  Help_PrintMsgAction - WEB_MSG:login/loginByAccount
+01-26 17:23:54 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/loginByAccount]:0
+01-26 17:24:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-26 17:24:36 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+01-26 17:24:36 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+01-26 17:24:37 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+01-26 17:24:38 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+01-26 17:24:38 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/dbgirl]
+01-26 17:24:38 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=root, password=123456}
+01-26 17:24:38 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+01-26 17:24:38 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+01-26 17:24:38 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+01-26 17:24:39 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+01-26 17:24:39 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 32 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-26 17:24:39 WARN  org.hibernate.hql.internal.ast.HqlSqlWalker - [DEPRECATION] Encountered positional parameter near line 1, column 47 in HQL: [FROM sl.domain.User WHERE name=? AND password=?].  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+01-26 17:24:39 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:15075
+01-26 17:25:02 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:02 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:25:22 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:22 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:25:23 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:23 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:25:23 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:23 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:25:24 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:25:51 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:25:51 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:26:41 INFO  Help_PrintMsgAction - WEB_MSG:login/loginByAccount
+01-26 17:26:41 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/loginByAccount]:0
+01-26 17:27:13 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:27:13 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847033987-ThreadPool[1824731525]] Success
+01-26 17:27:13 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847033987] Success
+01-26 17:27:13 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:27:13 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:27:13 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2083999882]] Success
+01-26 17:27:13 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:27:13 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:27:14 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:27:14 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:27:14 ERROR XZYStart - System start finish.
+01-26 17:29:26 INFO  Help_PrintMsgAction - WEB_MSG:login/loginByAccount
+01-26 17:29:26 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/loginByAccount]:0
+01-26 17:29:28 INFO  Help_PrintMsgAction - WEB_MSG:login/loginByAccount
+01-26 17:29:28 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/loginByAccount]:0
+01-26 17:30:49 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-26 17:30:49 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-26 17:31:01 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-26 17:31:01 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-26 17:31:13 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-26 17:31:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:0
+01-26 17:31:29 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:31:29 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:0
+01-26 17:32:13 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@fb2c4d2--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:23;totalCost:10;maxCost:2;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@7c37508a--Web Entry Mapping Server[login]::avgCost:0;times:3;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@7c37508a--Web Entry Mapping Server[login/loginByAccount]::avgCost:0;times:2;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@7c37508a--Web Entry Mapping Server[login/createLoginVerify]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-26 17:32:51 INFO  XZYStart - Server[logServer] Start Success!
+01-26 17:32:51 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+01-26 17:32:51 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+01-26 17:32:52 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+01-26 17:32:52 INFO  EntryAction - WebServer Struct Start Success!
+01-26 17:32:52 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[2083999882]] Success
+01-26 17:32:52 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+01-26 17:32:52 INFO  EntryAction - Web Entry Mapping Server Start Success!
+01-26 17:32:52 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+01-26 17:32:52 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+01-26 17:32:52 ERROR XZYStart - System start finish.
+01-26 17:33:01 INFO  Help_PrintMsgAction - WEB_MSG:login/createLoginVerify
+01-26 17:33:01 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login/createLoginVerify]:1
+01-26 17:33:35 INFO  Help_PrintMsgAction - WEB_MSG:login
+01-26 17:33:37 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1198
+01-26 17:37:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@7c37508a--Web Entry Mapping Server[login]::avgCost:1198;times:1;totalCost:1198;maxCost:1198;minCost:1198
+	 CostTimeStat:com.xzy.base.server.container.XZYActionContainerServer@7c37508a--Web Entry Mapping Server[login/createLoginVerify]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:15;totalCost:6;maxCost:3;minCost:0
+
+01-26 17:42:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7d1f7fa1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-26 17:47:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7d1f7fa1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-26 17:52:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7d1f7fa1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:1;times:1;totalCost:1;maxCost:1;minCost:1
+
+01-26 17:57:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7d1f7fa1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:0;times:1;totalCost:0;maxCost:0;minCost:0
+
+01-26 18:02:51 INFO  TaskCostStatServer - 	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7d1f7fa1--com.xzy.base.server.pool.TimerPool$ExecTask[null]::avgCost:23;times:1;totalCost:23;maxCost:23;minCost:23
+	 CostTimeStat:com.xzy.base.server.pool.ThreadPool@7dd20d91--com.xzy.base.server.log.LogRecordServer$LogTask[null]::avgCost:12;times:1;totalCost:12;maxCost:12;minCost:12
+

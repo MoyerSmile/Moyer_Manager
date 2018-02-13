@@ -1,0 +1,42 @@
+package sl.server.web;
+
+import org.json.JSONObject;
+
+import com.xzy.base_c.InfoContainer;
+
+import server.xzy.socket.IReleaser;
+import server.xzy.socket.XZYSocket;
+import server.xzy.websocket.XZYWebSocketServer.XZYWebSocket;
+
+public class SLWebSocketReleaser implements IReleaser {	
+	@Override
+	public void init(XZYSocket socketServer) throws Exception {
+
+	}
+
+	@Override
+	public void execute(InfoContainer cmdInfo) {
+		XZYWebSocket conn = (XZYWebSocket)cmdInfo.getInfo(XZYSocket.SOCKET_FLAG);
+
+		Object cmd = cmdInfo.getInfo(XZYSocket.CMD_FLAG);
+		Object data = cmdInfo.getInfo(XZYSocket.DATA_FLAG);
+		
+		if(cmd == XZYSocket.SOCKET_CONNECT_CMD){
+			WebSocketManager.getSingleInstance().addSocket(conn);
+		}else if(cmd == XZYSocket.SOCKET_DISCONNECT_CMD){
+			WebSocketManager.getSingleInstance().removeSocket(conn);
+		}else{
+			try{
+				JSONObject msgObj = new JSONObject(data);
+				
+				String msg = msgObj.getString("id");
+				if(msg.equals("")){
+					
+				}
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+
+}

@@ -1,0 +1,126 @@
+package sl.action;
+
+import java.awt.image.BufferedImage;
+
+import javax.imageio.ImageIO;
+import javax.servlet.ServletOutputStream;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+
+import org.json.JSONObject;
+
+
+
+
+import sl.service.TLoginService;
+import sl.service.impl.LoginServiceImpl;
+import sl.util.JsonReader;
+import web.xzy.base.HttpAction;
+import web.xzy.base.HttpInfo;
+
+public class LoginAction extends HttpAction {
+
+    private TLoginService loginService = new LoginServiceImpl();
+
+    /**
+     * 创建登录验证码
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     */
+    public String createLoginVerify(HttpInfo httpInfo,
+            HttpServletRequest request, HttpServletResponse response) {
+        try {
+            // 把校验码转为图像
+            BufferedImage image = loginService.genCaptcha(response);
+
+            response.setContentType("image/jpeg");
+
+            // 输出图像
+            ServletOutputStream outStream = response.getOutputStream();
+            ImageIO.write(image, "jpeg", outStream);
+            outStream.close();
+        } catch (Exception ex) {
+            ex.getMessage();
+        }
+        return null;
+    }
+
+    private static final String USERNAME = "userName";
+    private static final String PASSWORD = "password";
+
+    /**
+     * 使用账号密码登录
+     * 
+     * @param httpInfo
+     * @param request
+     * @param response
+     * @return
+     * @throws Exception
+     */
+    public String loginByAccount(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        JSONObject json = JsonReader.receivePost(request);
+        System.out.println(json);
+       
+        String userName = json.get(USERNAME).toString();
+        String password = json.get(PASSWORD).toString();
+
+        Boolean bolean = loginService.login(userName, password);
+
+        if (bolean)
+            System.out.println("登录成功！");
+        else
+            System.out.println("用户名或密码错误！");
+
+        // 1首先验证：验证码，用户名密码是否正确
+        // 到redis中验证验证是否正确，或超时，是--重新刷新验证码，并重新登录
+
+        // 2验证码通过到数据库验证用户名和密码(md5加密)是否输入正确，是---产生token，否重新登录
+
+        // User user = new User();
+        // user.setName("moyer");
+        // String token = token = TokenUtil.createJWT(
+        // String.valueOf(user.getName()), user.getName(), 1000 * 60 * 10);
+        //
+        // System.out.println(token);
+        //
+        // Claims c = TokenUtil.parseJWT(token);
+        // System.out.println(c.get("exp"));
+        //
+        // PrintWriter pw = response.getWriter();
+        // if (!token.equals("")) {
+        // System.out.println(token);
+        // pw.print("login succeed : " + token);
+        // }
+        //
+        // System.out.println("login by account");
+        JSONObject json1 = new JSONObject();
+        json1.put("1", "1");
+        this.writeJson(httpInfo, request, response, json1);
+        return null;
+    }
+
+    public String loginByToken(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("login by token");
+
+        return null;
+    }
+
+    public String createLoginQCode(HttpInfo httpInfo,
+            HttpServletRequest request, HttpServletResponse response)
+            throws Exception {
+        System.out.println("create login qrcode");
+        return null;
+    }
+
+    public String loginByQCode(HttpInfo httpInfo, HttpServletRequest request,
+            HttpServletResponse response) throws Exception {
+        System.out.println("login By QCode");
+        return null;
+    }
+}

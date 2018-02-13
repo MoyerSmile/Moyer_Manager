@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<script>
+	window.onload = function(){
+		awt_browser_calljava("onload");
+	};
+		window.loginByAccount = function(infos){
+			alert(infos.account+" "+infos.pwd+" "+infos.verify);
+			//ajax交互
+			
+			awt_browser_calljava("testResult:true|false,code1");
+		}
+	</script>
+</head>
+<body>
+	<img src="http://localhost:8080/login.go?method=createLoginVerify">
+</body>
+</html>

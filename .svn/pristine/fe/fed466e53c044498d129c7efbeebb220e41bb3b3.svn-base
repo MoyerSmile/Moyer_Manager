@@ -1,0 +1,232 @@
+package sl.dao.impl;
+
+import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+import org.hibernate.type.StandardBasicTypes;
+import org.hibernate.type.Type;
+
+import sl.dao.GenericDAO;
+
+/**
+ * 底层使用封装类实现
+ * 
+ * @author moyer
+ * @date 2018年1月21日
+ */
+public class GenericDAOImpl implements GenericDAO {
+
+    Configuration          configuration  = new Configuration()
+        .configure("/hibernate.cfg.xml");
+    // @Autowired
+    private SessionFactory sessionFactory = configuration.buildSessionFactory();
+    // private SessionFactory sessionFactory =
+    // HibernateUtil.getSessionFactory();
+
+    @Override
+    public void save(Object obj) {
+        Session session = sessionFactory.getCurrentSession();
+        session.save(obj);
+    }
+
+    @Override
+    public void update(Object obj) {
+        Session session = sessionFactory.getCurrentSession();
+        session.update(obj);
+    }
+
+    @Override
+    public void delete(Object obj) {
+        Session session = sessionFactory.getCurrentSession();
+        session.delete(obj);
+    }
+
+    public void saveOrUpdate(Object obj) {
+        Session session = sessionFactory.getCurrentSession();
+        session.saveOrUpdate(obj);
+    }
+
+    @Override
+    public Object load(Class<?> cls, Serializable id) {
+        Session session = sessionFactory.getCurrentSession();
+        return session.get(cls, id);
+    }
+
+    @Override
+    public List<?> getAll(Class<?> dataName) {
+        StringBuffer sb = new StringBuffer("from ").append(dataName.getName());
+        return query(sb.toString());
+    }
+
+    @Override
+    public List<?> getAllbyId(Class<?> dataName, long id) {
+        StringBuffer sb = new StringBuffer("from ").append(dataName.getName())
+            .append(" t where t.id=" + id);
+        return query(sb.toString());
+    }
+
+    @Override
+    public List<?> getAll(Class<?> dataName, String orderBy) {
+        StringBuffer sb = new StringBuffer("from ").append(dataName.getName())
+            .append(" t order by t.")
+            .append(orderBy);
+        return query(sb.toString());
+    }
+
+    @Override
+    public List<?> getAll(Class<?> dataName, String condition, String orderBy) {
+        StringBuffer sb = new StringBuffer("from ").append(dataName.getName())
+            .append(" t ")
+            .append(condition)
+            .append(" order by t.")
+            .append(orderBy);
+        return query(sb.toString());
+    }
+
+    @Override
+    public <E> List<E> query(String hql) {
+        return query(hql, -1, -1);
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <E> List<E> query(String hql, int start, int limit) {
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery(hql);
+        if (start >= 0 && limit > 0) {
+            query.setFirstResult(start);
+            query.setMaxResults(limit);
+        }
+        return query.list();
+    }
+
+    @Override
+    public <E> List<E> query(String hql, Object[] params) {
+        return query(hql, params, -1, -1);
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <E> List<E> query(String hql, Object[] params, int start,
+            int limit) {
+        if (params == null || params.length == 0)
+            return query(hql, start, limit);
+        Type[] types = getTypes(params);
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery(hql);
+        query.setParameters(params, types);
+        if (start >= 0 && limit > 0) {
+            query.setFirstResult(start);
+            query.setMaxResults(limit);
+        }
+        return query.list();
+    }
+
+    private Type[] getTypes(Object[] params) {
+        Type[] types = new Type[params.length];
+        for (int i = 0; i < params.length; i++) {
+            Object param = params[i];
+            Type type = null;
+            if (param instanceof String)
+                type = StandardBasicTypes.STRING;
+            else if (param instanceof Integer)
+                type = StandardBasicTypes.INTEGER;
+            else if (param instanceof Float)
+                type = StandardBasicTypes.FLOAT;
+            else if (param instanceof Double)
+                type = StandardBasicTypes.DOUBLE;
+            else if (param instanceof Boolean)
+                type = StandardBasicTypes.BOOLEAN;
+            else if (param instanceof Date)
+                type = StandardBasicTypes.TIMESTAMP;
+            else if (param instanceof Long)
+                type = StandardBasicTypes.LONG;
+            types[i] = type;
+        }
+        return types;
+    }
+
+    @Override
+    public <E> E querySingleResult(String hql) {
+        List<E> list = query(hql);
+        if (list.size() == 0)
+            return null;
+        else
+            return list.get(0);
+    }
+
+    @Override
+    public <E> E querySingleResult(String hql, Object[] params) {
+        List<E> list = query(hql, params);
+        if (list.size() == 0)
+            return null;
+        else
+            return list.get(0);
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <E> List<E> sqlQuery(String sql, List<Object> param, int start,
+            int limit) {
+        Session session = sessionFactory.getCurrentSession();
+        org.hibernate.SQLQuery query = session.createSQLQuery(sql);
+        if (param != null && param.size() > 0) {
+            for (int i = 0; i < param.size(); i++) {
+                query.setParameter(i, param.get(i));
+            }
+        }
+        if (start >= 0 && limit > 0) {
+            query.setFirstResult(start);
+            query.setMaxResults(limit);
+        }
+        return query.list();
+    }
+
+    @Override
+    @SuppressWarnings("unchecked")
+    public <E> E querySqlSingleResult(String sql, Object[] param) {
+        Session session = sessionFactory.getCurrentSession();
+        org.hibernate.SQLQuery query = session.createSQLQuery(sql);
+        if (param != null && param.length > 0) {
+            for (int i = 0; i < param.length; i++) {
+                query.setParameter(i, param[i]);
+            }
+        }
+        return (E) query.uniqueResult();
+    }
+
+    @Override
+    public int excute(String hql) {
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery(hql);
+        return query.executeUpdate();
+    }
+
+    @Override
+    public int excute(String hql, Object[] params) {
+        Type[] types = getTypes(params);
+        Session session = sessionFactory.getCurrentSession();
+        Query query = session.createQuery(hql);
+        query.setParameters(params, types);
+        return query.executeUpdate();
+    }
+
+    @Override
+    public <E> void batchSave(List<E> list) {
+        Session session = sessionFactory.getCurrentSession();
+        if (list != null)
+            for (int i = 0; i < list.size(); i++) {
+                session.save(list.get(i));
+                if (i % 100 == 0) {
+                    session.flush();
+                    session.clear();
+                }
+            }
+    }
+
+}
