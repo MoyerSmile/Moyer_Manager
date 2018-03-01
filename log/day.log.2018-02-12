@@ -1,0 +1,72 @@
+02-12 14:27:53 INFO  XZYStart - Server[logServer] Start Success!
+02-12 14:27:53 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_1847084571-ThreadPool[723174844]] Success
+02-12 14:27:53 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_1847084571] Success
+02-12 14:27:54 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-12 14:27:54 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-12 14:27:54 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-12 14:27:55 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-12 14:27:55 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-12 14:27:55 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-12 14:27:55 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-12 14:27:55 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-12 14:27:55 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-12 14:27:56 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-12 14:27:56 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-12 14:27:56 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-12 14:27:56 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-12 14:27:56 INFO  EntryAction - WebServer Struct Start Success!
+02-12 14:27:56 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[1060549703]] Success
+02-12 14:27:56 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-12 14:27:56 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-12 14:27:56 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-12 14:27:56 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-12 14:27:56 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-12 14:27:56 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-12 14:27:56 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-12 14:27:56 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-12 14:27:56 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-12 14:27:56 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-12 14:27:56 ERROR XZYStart - System start finish.
+02-12 14:28:10 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-12 14:28:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:1705
+02-12 14:28:12 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-12 14:28:12 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:461
+02-12 14:28:13 INFO  Help_PrintMsgAction - WEB_MSG:user
+02-12 14:28:13 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-12 14:28:13 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[user]:418
+02-12 14:35:14 INFO  XZYStart - Server[logServer] Start Success!
+02-12 14:35:14 INFO  ThreadPoolServer - Create New ThreadPool[cost_stat_timer_678442457-ThreadPool[2055138648]] Success
+02-12 14:35:14 INFO  ThreadPoolServer - Create New TimerPool[cost_stat_timer_678442457] Success
+02-12 14:35:15 INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.12.Final}
+02-12 14:35:15 INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+02-12 14:35:15 INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+02-12 14:35:16 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-12 14:35:16 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-12 14:35:16 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-12 14:35:16 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-12 14:35:16 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-12 14:35:16 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-12 14:35:17 INFO  ThreadPoolServer - Create New ThreadPool[SL_Manager_Redis_Server-redisListener] Success
+02-12 14:35:17 INFO  XZYStart - Server[SL_Manager_Redis_Server] Start Success!
+02-12 14:35:17 INFO  XZYStart - Server[SL_Manager_WebSocketServer] Start Success!
+02-12 14:35:17 INFO  XZYStart - Config File Load Success!  D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\server.xml	/D:/EntersSellsSaves/SL_Manager/WebContent/WEB-INF/conf/server.xml
+02-12 14:35:17 INFO  EntryAction - WebServer Struct Start Success!
+02-12 14:35:17 INFO  ThreadPoolServer - Create New ThreadPool[Web Entry Mapping Server-ThreadPool[870593736]] Success
+02-12 14:35:17 WARN  org.hibernate.orm.connections.pooling - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+02-12 14:35:17 INFO  org.hibernate.orm.connections.pooling - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://192.168.1.10:3306/EASYTAXI]
+02-12 14:35:17 INFO  org.hibernate.orm.connections.pooling - HHH10001001: Connection properties: {user=easyits, password=easyits}
+02-12 14:35:17 INFO  org.hibernate.orm.connections.pooling - HHH10001003: Autocommit mode: false
+02-12 14:35:17 INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl - HHH000115: Hibernate connection pool size: 1 (min=1)
+02-12 14:35:17 INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+02-12 14:35:17 INFO  XZYActionContainerServer - Load Mapping Server[Web Entry Mapping Server]'s Config [D:\EntersSellsSaves\SL_Manager\WebContent\WEB-INF\conf\action_mapping.xml] Success!
+02-12 14:35:17 INFO  EntryAction - Web Entry Mapping Server Start Success!
+02-12 14:35:17 INFO  XZYStart - Server[SL_Manager_Web_Server] Start Success!
+02-12 14:35:17 INFO  XZYStart - Config File Load Success!  ./conf/start_server.xml	/D:/EntersSellsSaves/SL_Manager/./conf/start_server.xml
+02-12 14:35:17 ERROR XZYStart - System start finish.
+02-12 14:35:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-12 14:35:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:295
+02-12 14:35:24 INFO  Help_PrintMsgAction - WEB_MSG:login
+02-12 14:35:24 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[login]:331
+02-12 14:35:25 INFO  Help_PrintMsgAction - WEB_MSG:user
+02-12 14:35:25 INFO  org.hibernate.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+02-12 14:35:25 INFO  XZYActionContainerServer - Web Entry Mapping Server:MSG[user]:354
